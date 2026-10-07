@@ -54,12 +54,8 @@ Mental model mismatches (what they expected vs. what happened):
 Post task answers:
   Hardest task:
   Didn't understand / ignored:
-  Most unsure moment:
-  Past registration problem:
-  Schedule Builder comparison:
   One change:
   Ease rating (1 to 5):
-  Extra (P1 or P2 specific):
 
 Screens to screenshot myself later:
 

@@ -12,7 +12,7 @@ Sections marked **[DRAFTED]** are written and ready to edit. Sections marked **[
 Kaden Donaldson
 Human Computer Interaction
 [Date]
-GitHub repository: [link]
+GitHub repository: https://github.com/Kaden-13/Contextual-Research
 
 ---
 

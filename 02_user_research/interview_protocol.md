@@ -3,7 +3,7 @@
 **Method:** Semi structured interview combined with a think aloud task observation (contextual inquiry)
 **System:** Weber State University class search and registration (Register for Classes app in the eWeber portal)
 **Participants:** 2 Weber State students
-**Session length:** About 25 to 30 minutes
+**Session length:** About 20 minutes
 **Data collection:** Handwritten or typed observer notes only. Sessions are not audio or screen recorded.
 **Setting:** The participant's own device and location when possible, so the context is realistic
 
@@ -48,27 +48,14 @@ Since there is no recording, your notes are the only data. These habits make the
 
 * [ ] Verbal consent given
 
-## 2. Warm Up Questions (3 to 4 minutes)
+## 2. Warm Up Questions (2 to 3 minutes)
 
-Pick 4 or 5. These set the context and get them talking before the tasks.
-
-**Both participants**
 1. What year are you, and what's your major?
-2. What device do you usually register on, and where are you usually when you do it?
-3. When registration opens, how do you feel about it? Excited, stressed, indifferent?
+2. What device do you usually register on?
+3. (P1) Have you registered at Weber State before? What do you expect it to be like?
+3. (P2) Walk me through how you usually build your schedule. Any shortcuts?
 
-**Novice (P1)**
-4. Have you registered at Weber State before? If so, how did it go?
-5. What do you expect the process to be like?
-6. If you got stuck, who or what would you go to for help?
-
-**Experienced (P2)**
-4. About how many semesters have you registered?
-5. Walk me through your usual routine for building a schedule. Where do you start?
-6. Do you have any tricks or shortcuts you use to get it done faster?
-7. Has registration ever gone wrong for you? What happened?
-
-## 3. Task Observation (15 to 18 minutes)
+## 3. Task Observation (12 to 15 minutes)
 
 Read each scenario aloud. Do not explain how to complete it. Start the timer when they begin and stop it when they finish or give up.
 
@@ -76,12 +63,7 @@ If they're stuck for about 2 minutes, ask "What would you do next if I weren't h
 
 **Note:** They should stop before final submission so no real registration changes are made, unless they actually want that class.
 
-### Ground Rules for Asking Questions During Tasks
-
-* Ask **open** questions ("What are you thinking?"), not leading ones ("Is that confusing?").
-* **Don't answer their questions** about the system. Turn them back: "What do you think it means?"
-* Ask **mid task questions sparingly** so you don't break their flow. Save most follow ups for right after each task.
-* If they go quiet, a simple "What are you looking at now?" gets them talking again.
+**Ground rules:** ask open questions, not leading ones. If they ask you how something works, turn it back: "What do you think it means?" Save most questions for right after each task so you don't break their flow.
 
 ### Task 1: Find a Course
 
@@ -89,78 +71,44 @@ If they're stuck for about 2 minutes, ask "What would you do next if I weren't h
 
 *Substitute any common general education course offered that term.*
 
-**Watch for:** how they find the right app, the tuition agreement screen, term selection, whether they understand subject codes, and whether they use advanced search or filters.
+**Watch for:** finding the right app, the tuition agreement screen, term selection, subject codes, use of advanced search.
 
-**Questions during the task**
-* Where would you expect to find that?
-* What are you looking for on this page?
-* What do you think that screen is asking you to agree to? (tuition agreement)
-* How did you know which term to pick?
-
-**Questions after the task**
+**Ask:**
 * Was that where you expected to start?
 * Was anything on the way there unclear or unnecessary?
-* (P2) Is that how you always do it, or did you take a different route today?
 
 ### Task 2: Choose a Section That Fits Your Life
 
 > You work every weekday until 1:00 PM. Find a section of that course that starts after 1:00 PM, or is fully online, and still has open seats.
 
-**Watch for:** whether they can find meeting times, delivery method, and seat availability; whether they understand abbreviations for days, campus, and delivery type; how much they scroll, zoom, or switch screens; whether they try to filter by time.
+**Watch for:** finding times, delivery method, and open seats; reading abbreviations; scrolling or switching screens; trying to filter by time.
 
-**Questions during the task**
-* How are you deciding between these sections?
-* What does that column or abbreviation mean to you?
-* How can you tell whether this one is online or in person?
-* How do you know if there's still room in this class?
-* Is there a way to narrow this down? Where would you expect it to be?
-
-**Questions after the task**
-* How confident are you that you picked a section that actually fits that schedule? (1 to 5)
-* What information did you wish was easier to see?
-* If you were doing this on your phone between classes, how would that go?
-* (P2) What do you usually do when the results list is this long?
+**Ask:**
+* How can you tell whether this one is online or in person, and whether it has room?
+* How confident are you this section fits that schedule? (1 to 5)
 
 ### Task 3: Check Eligibility and Add to Cart
 
 > Before you add it, figure out whether you are allowed to take this class. Then get it ready to register, but stop before final submission.
 
-**Watch for:** whether prerequisites and restrictions are visible without digging, how warnings or errors are shown, whether they know the difference between adding to the summary box and being registered, and whether they know what happens next.
+**Watch for:** whether prerequisites and restrictions are visible, how warnings are shown, whether they know "added to summary" is not the same as registered.
 
-**Questions during the task**
-* How would you find out if you're allowed to take this?
-* Where would you expect prerequisites to show up?
-* What do you think will happen when you click that?
+**Ask:**
 * Is this class registered right now, or not yet? How can you tell?
+* (P2) Have you ever gotten an error at this step? How did you fix it?
 
-**Questions after the task**
-* If you missed a prerequisite, when would you expect the system to tell you?
-* If an error popped up here, what would you do?
-* (P2) Have you ever gotten an error at this step? What did it say, and how did you fix it?
-* (P1) Do you feel like you'd know what to do on your own next time?
-
-### Questions You Can Use Anytime
+### Use Anytime
 
 * You paused there. What were you thinking?
 * What did you expect to happen when you clicked that?
-* Is that what you expected to see?
-* What would you call that, in your own words?
-* What's the most important thing on this screen for you right now?
-* If a friend were sitting next to you, what would you ask them right now?
-* (When they complain) What would make that better?
-* (When they're fast, mostly P2) How did you know to do that?
+* (When they move fast, mostly P2) How did you know to do that?
 
-## 4. Post Task Questions (4 to 5 minutes)
+## 4. Post Task Questions (3 minutes)
 
-1. Which of those tasks was the hardest? Why?
+1. Which task was the hardest, and why?
 2. Was there anything on the screen you didn't understand or just ignored?
-3. Where did you feel most unsure about whether you were doing it right?
-4. Think of a time registration went wrong for you, or a time you heard about it going wrong for a friend. What happened?
-5. Have you ever used the Registration Schedule Builder instead? How does it compare?
-6. If you could change one thing about the registration system, what would it be?
-7. On a scale of 1 (very difficult) to 5 (very easy), how easy was it to register today?
-8. (P2) What do you wish someone had told you your first time registering?
-9. (P1) After today, how do you feel about registering on your own next semester?
+3. If you could change one thing about registration, what would it be?
+4. On a scale of 1 (very difficult) to 5 (very easy), how easy was it today?
 
 ## 5. Wrap Up (1 minute)
 
@@ -220,12 +168,8 @@ Mental model mismatches (what they expected vs. what happened):
 Post task answers:
   Hardest task:
   Didn't understand / ignored:
-  Most unsure moment:
-  Past registration problem:
-  Schedule Builder comparison:
   One change:
   Ease rating (1 to 5):
-  Extra (P1 or P2 specific):
 
 Screens to screenshot myself later:
 
