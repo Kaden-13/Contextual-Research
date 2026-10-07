@@ -42,7 +42,7 @@ Registration is time sensitive and high stakes. Seats in popular sections fill q
 1. Find a specific course
 2. Compare sections by time, delivery method, and open seats
 3. Confirm eligibility (prerequisites, restrictions, holds)
-4. Locate how to add a section (adding was unavailable during this mock run)
+4. Locate how to add a section (no classes were actually added in this mock run)
 5. Recover from registration errors
 
 ---
@@ -51,7 +51,7 @@ Registration is time sensitive and high stakes. Seats in popular sections fill q
 
 This audit combined three methods so that findings from one could be checked against the others.
 
-**Contextual inquiry.** I observed 2 Weber State students using their own devices and accounts: one who was new to the registration system and one who had registered many times. Choosing opposite ends of experience made it possible to compare what blocks a first time user with what an experienced user has learned to work around. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. Sessions were not audio or screen recorded. Instead, I took live notes on task completion, time on task, wrong turns, hesitations, workarounds, and word for word quotes, then cleaned them up the same day. Because the study ran outside the registration window, sessions were a mock run: participants searched current semester classes and showed how they would add a section, but the system did not allow adding. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
+**Contextual inquiry.** I observed 2 Weber State students using their own devices and accounts: one who was new to the registration system and one who had registered many times. Choosing opposite ends of experience made it possible to compare what blocks a first time user with what an experienced user has learned to work around. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. Sessions were not audio or screen recorded. Instead, I took live notes on task completion, time on task, wrong turns, hesitations, workarounds, and word for word quotes, then cleaned them up the same day. Because the study ran outside the registration window, sessions were a mock run: participants searched current semester classes and showed how they would add a section, but did not actually add or submit anything. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
 
 **Synthesis.** I broke the notes into individual observations and grouped them through affinity mapping into themes, giving the most weight to problems both participants hit or that the heuristic evaluation confirmed (`02_user_research/synthesis/affinity_themes.md`).
 

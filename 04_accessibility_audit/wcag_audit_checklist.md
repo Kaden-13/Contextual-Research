@@ -17,7 +17,7 @@ Use the same flow steps as the heuristic evaluation.
 | S4 | Class search form | | | |
 | S5 | Search results | | | |
 | S6 | Section details | | | |
-| S7 | Add option and closed registration message | | | |
+| S7 | Add option | | | |
 
 ## Part 1: Automated Scans
 
