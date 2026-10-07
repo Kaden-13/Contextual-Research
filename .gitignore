@@ -1,0 +1,13 @@
+# Keep raw recordings and anything with personal data out of the repo
+*.mp4
+*.mov
+*.webm
+*.m4a
+*.wav
+recordings/
+private/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
