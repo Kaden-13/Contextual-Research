@@ -12,7 +12,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | --- | --- |
 | `01_problem_statement/` | Problem statement, target users, core tasks, and consequences |
 | `02_user_research/` | Interview and observation protocol |
-| `02_user_research/raw_notes/` | One notes file per participant (P1, P2, P3), unedited |
+| `02_user_research/raw_notes/` | One notes file per participant (P1 and P2), unedited |
 | `02_user_research/synthesis/` | Affinity mapping and thematic pain points |
 | `03_heuristic_evaluation/` | Nielsen's 10 heuristics evaluation log with severity ratings |
 | `04_accessibility_audit/` | WCAG 2.1 AA checklist, manual test results, findings |
@@ -24,7 +24,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 ## Method Summary
 
 1. **Problem framing:** Defined the platform, users, core tasks, and consequences of failure.
-2. **Contextual inquiry:** Observed 3 Weber State students completing 3 realistic registration tasks while thinking aloud, followed by a short semi structured interview.
+2. **Contextual inquiry:** Observed 2 Weber State students, one new to registration and one experienced, completing 3 realistic registration tasks while thinking aloud, followed by a short semi structured interview.
 3. **Synthesis:** Grouped quotes, errors, and breakdown points into themes using affinity mapping.
 4. **Heuristic evaluation:** Walked through each step of the registration flow against Nielsen's 10 Usability Heuristics and rated each issue from 0 (no issue) to 4 (usability catastrophe).
 5. **Accessibility audit:** Ran axe DevTools and WAVE scans, then manually tested color contrast (SC 1.4.3), keyboard access and focus visibility (SC 2.4.7), and semantic structure and ARIA support.
@@ -32,7 +32,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 
 ## Privacy
 
-* Participants are identified only as P1, P2, and P3.
+* Participants are identified only as P1 and P2.
 * No names, student IDs, grades, or other personal information are stored here.
 * Screen recordings are kept off this repository (see `.gitignore`). Screenshots are cropped or blurred to remove personal details before being committed.
 
@@ -42,7 +42,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | --- | --- |
 | Problem statement | Draft complete |
 | Research protocol | Complete |
-| User sessions (P1 to P3) | Not started |
+| User sessions (P1 and P2) | Not started |
 | Synthesis | Not started |
 | Heuristic evaluation | Not started |
 | Accessibility audit | Not started |

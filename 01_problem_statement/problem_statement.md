@@ -48,7 +48,7 @@ Registration is a high stakes, time sensitive task, yet the interface asks stude
 
 This statement will be validated or revised using the data gathered in this phase:
 
-* Task completion rate and time on task from 2 to 3 observed user sessions: [fill in after sessions]
+* Task completion rate and time on task from 2 observed user sessions: [fill in after sessions]
 * Direct user quotes and observed breakdown points: [fill in after sessions]
 * Heuristic violations with severity ratings: [fill in after evaluation]
 * WCAG 2.1 AA failures from axe DevTools, WAVE, and manual checks: [fill in after audit]

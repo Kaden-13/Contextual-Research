@@ -2,19 +2,20 @@
 
 **Method:** Semi structured interview combined with a think aloud task observation (contextual inquiry).
 **System:** Weber State University class search and registration (Register for Classes app in the eWeber portal)
-**Participants:** 3 current Weber State students
+**Participants:** 2 Weber State students
 **Session length:** About 20 to 25 minutes
 **Setting:** The participant's own device and location when possible, so the context is realistic
 
 ## Participant Criteria
 
-Aim for variety across the 3 participants:
+The two participants are chosen to sit at opposite ends of experience:
 
-* At least one newer student (first or second year)
-* At least one student who has registered for 4 or more semesters
-* If possible, one participant who mostly uses a phone, or who uses keyboard navigation or assistive technology
+* **P1, novice:** a student who is new to Weber State registration and has registered once or never
+* **P2, experienced:** a student who has registered for many semesters
 
-Assign each participant an ID (P1, P2, P3). Do not record full names in the repository.
+Comparing the two shows both what blocks first time users and what experienced users have learned to work around.
+
+Assign each participant an ID (P1, P2). Do not record full names in the repository.
 
 ## Materials
 

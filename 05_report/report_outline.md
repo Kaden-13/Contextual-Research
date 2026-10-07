@@ -51,21 +51,21 @@ Registration is time sensitive and high stakes. Seats in popular sections fill q
 
 This audit combined three methods so that findings from one could be checked against the others.
 
-**Contextual inquiry.** I observed 3 current Weber State students using their own devices and accounts. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. I recorded completion, time on task, wrong turns, and direct quotes. Participants stopped before final submission so no real registrations changed. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
+**Contextual inquiry.** I observed 2 Weber State students using their own devices and accounts: one who was new to the registration system and one who had registered many times. Choosing opposite ends of experience made it possible to compare what blocks a first time user with what an experienced user has learned to work around. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. I recorded completion, time on task, wrong turns, and direct quotes. Participants stopped before final submission so no real registrations changed. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
 
-**Synthesis.** I broke the notes into individual observations and grouped them through affinity mapping into themes supported by at least two participants (`02_user_research/synthesis/affinity_themes.md`).
+**Synthesis.** I broke the notes into individual observations and grouped them through affinity mapping into themes, giving the most weight to problems both participants hit or that the heuristic evaluation confirmed (`02_user_research/synthesis/affinity_themes.md`).
 
 **Heuristic evaluation.** I walked through each screen of the flow against Nielsen's 10 Usability Heuristics and rated every issue from 0 (not a problem) to 4 (usability catastrophe) based on frequency, impact, and persistence (`03_heuristic_evaluation/heuristic_evaluation_log.md`).
 
 **Accessibility audit.** I scanned each page with axe DevTools and WAVE, then manually tested color contrast (SC 1.4.3), keyboard access and visible focus (SC 2.1.1 and 2.4.7), and semantic structure and ARIA support (`04_accessibility_audit/wcag_audit_checklist.md`).
 
-**Limitations.** The sample is small and drawn from people I know, so it shows the kinds of problems students run into, not how often they occur across all students. The evaluation was done by a single evaluator, and testing happened outside the main registration window, so behavior under heavy load and real seat competition was not observed.
+**Limitations.** With only 2 participants, both of whom I know personally, the research shows the kinds of problems students run into, not how often they occur across all students. Participants who know the researcher may also soften criticism, so I emphasized that the system was being tested, not them. The evaluation was done by a single evaluator, and testing happened outside the main registration window, so behavior under heavy load and real seat competition was not observed.
 
 ---
 
 ## 4. User Research Findings [AFTER RESEARCH]
 
-* Participant overview table (P1 to P3: year, registration experience, device)
+* Participant overview table (P1 and P2: year, registration experience, device)
 * Task results table (completion and time per task)
 * 3 to 5 themes, each with:
   * Theme name as a heading
