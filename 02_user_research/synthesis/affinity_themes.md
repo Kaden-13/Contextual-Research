@@ -15,7 +15,7 @@
 | --- | --- | --- | --- | --- |
 | T1: Find a course | | | | |
 | T2: Choose a section | | | | |
-| T3: Check eligibility and add to cart | | | | |
+| T3: Check eligibility and find how to add | | | | |
 
 Completion key: **Y** = completed alone, **A** = completed with assist, **N** = did not complete
 

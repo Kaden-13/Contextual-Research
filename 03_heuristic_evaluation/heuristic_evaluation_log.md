@@ -20,9 +20,9 @@ I walked through the registration flow one screen at a time, twice. The first pa
 | S4 | Class search form (subject, course number, campus, advanced search) |
 | S5 | Search results list |
 | S6 | Section details (meeting times, seats, prerequisites, restrictions) |
-| S7 | Adding to the summary box |
-| S8 | Submitting registration and confirmation or errors |
-| S9 | Error recovery (time conflict, hold, prerequisite, full section) |
+| S7 | Locating the Add option (adding is disabled outside the registration window; evaluate how clearly that is communicated) |
+| S8 | Submitting registration and confirmation or errors (not testable outside the registration window; note as a limitation) |
+| S9 | Error recovery (evaluate any messages that do appear, such as registration being closed) |
 
 ### Severity Scale
 

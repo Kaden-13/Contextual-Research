@@ -42,7 +42,7 @@ Registration is time sensitive and high stakes. Seats in popular sections fill q
 1. Find a specific course
 2. Compare sections by time, delivery method, and open seats
 3. Confirm eligibility (prerequisites, restrictions, holds)
-4. Add a section and prepare to register
+4. Locate how to add a section (adding was unavailable during this mock run)
 5. Recover from registration errors
 
 ---
@@ -51,7 +51,7 @@ Registration is time sensitive and high stakes. Seats in popular sections fill q
 
 This audit combined three methods so that findings from one could be checked against the others.
 
-**Contextual inquiry.** I observed 2 Weber State students using their own devices and accounts: one who was new to the registration system and one who had registered many times. Choosing opposite ends of experience made it possible to compare what blocks a first time user with what an experienced user has learned to work around. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. Sessions were not audio or screen recorded. Instead, I took live notes on task completion, time on task, wrong turns, hesitations, workarounds, and word for word quotes, then cleaned them up the same day. Participants stopped before final submission so no real registrations changed. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
+**Contextual inquiry.** I observed 2 Weber State students using their own devices and accounts: one who was new to the registration system and one who had registered many times. Choosing opposite ends of experience made it possible to compare what blocks a first time user with what an experienced user has learned to work around. Each participant completed 3 realistic tasks while thinking aloud, then answered short follow up questions. Sessions were not audio or screen recorded. Instead, I took live notes on task completion, time on task, wrong turns, hesitations, workarounds, and word for word quotes, then cleaned them up the same day. Because the study ran outside the registration window, sessions were a mock run: participants searched current semester classes and showed how they would add a section, but the system did not allow adding. The full script is in `02_user_research/interview_protocol.md`, and unedited notes are in `02_user_research/raw_notes/`.
 
 **Synthesis.** I broke the notes into individual observations and grouped them through affinity mapping into themes, giving the most weight to problems both participants hit or that the heuristic evaluation confirmed (`02_user_research/synthesis/affinity_themes.md`).
 
@@ -59,7 +59,7 @@ This audit combined three methods so that findings from one could be checked aga
 
 **Accessibility audit.** I scanned each page with axe DevTools and WAVE, then manually tested color contrast (SC 1.4.3), keyboard access and visible focus (SC 2.1.1 and 2.4.7), and semantic structure and ARIA support (`04_accessibility_audit/wcag_audit_checklist.md`).
 
-**Limitations.** With only 2 participants, both of whom I know personally, the research shows the kinds of problems students run into, not how often they occur across all students. Participants who know the researcher may also soften criticism, so I emphasized that the system was being tested, not them. The evaluation was done by a single evaluator, and testing happened outside the main registration window, so behavior under heavy load and real seat competition was not observed.
+**Limitations.** With only 2 participants, both of whom I know personally, the research shows the kinds of problems students run into, not how often they occur across all students. Participants who know the researcher may also soften criticism, so I emphasized that the system was being tested, not them. The evaluation was done by a single evaluator, and testing happened outside the registration window, so the final add and submit steps, system behavior under heavy load, and real seat competition could not be observed.
 
 ---
 

@@ -17,7 +17,7 @@ Use the same flow steps as the heuristic evaluation.
 | S4 | Class search form | | | |
 | S5 | Search results | | | |
 | S6 | Section details | | | |
-| S7 / S8 | Summary box and submit | | | |
+| S7 | Add option and closed registration message | | | |
 
 ## Part 1: Automated Scans
 
@@ -38,7 +38,7 @@ Use the same flow steps as the heuristic evaluation.
 | S4 | | | | | | |
 | S5 | | | | | | |
 | S6 | | | | | | |
-| S7 / S8 | | | | | | |
+| S7 | | | | | | |
 
 **Remember:** automated tools catch only part of the accessibility problems on a page. The manual checks below are required.
 

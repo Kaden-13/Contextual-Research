@@ -61,13 +61,13 @@ Read each scenario aloud. Do not explain how to complete it. Start the timer whe
 
 If they're stuck for about 2 minutes, ask "What would you do next if I weren't here?" If you have to step in and help, mark it with `A` in your notes.
 
-**Note:** They should stop before final submission so no real registration changes are made, unless they actually want that class.
+**This is a mock run.** Participants search the **current semester**, and adding classes is turned off right now, so no real registration changes can happen. Task 3 asks them to show and explain how they would add the class instead.
 
 **Ground rules:** ask open questions, not leading ones. If they ask you how something works, turn it back: "What do you think it means?" Save most questions for right after each task so you don't break their flow.
 
 ### Task 1: Find a Course
 
-> You need to take ENGL 2010 next semester. Find the list of sections being offered.
+> You need to take ENGL 2010. Find the list of sections being offered this semester.
 
 *Substitute any common general education course offered that term.*
 
@@ -87,14 +87,15 @@ If they're stuck for about 2 minutes, ask "What would you do next if I weren't h
 * How can you tell whether this one is online or in person, and whether it has room?
 * How confident are you this section fits that schedule? (1 to 5)
 
-### Task 3: Check Eligibility and Add to Cart
+### Task 3: Check Eligibility and Find How to Add
 
-> Before you add it, figure out whether you are allowed to take this class. Then get it ready to register, but stop before final submission.
+> Figure out whether you would be allowed to take this class. Then show me how you would add it to your schedule. Adding is turned off right now, so just go as far as you can and tell me what you expect to happen.
 
-**Watch for:** whether prerequisites and restrictions are visible, how warnings are shown, whether they know "added to summary" is not the same as registered.
+**Watch for:** whether prerequisites and restrictions are visible, whether they can find where to add a class, and whether the system makes it clear that adding is unavailable right now and why.
 
 **Ask:**
-* Is this class registered right now, or not yet? How can you tell?
+* What would you expect to happen if adding were turned on?
+* Can you tell why you can't add it right now? Where does it say that?
 * (P2) Have you ever gotten an error at this step? How did you fix it?
 
 ### Use Anytime
@@ -152,7 +153,7 @@ TASK 2: Choose a Section
   Confidence rating (1 to 5):
   After task answers:
 
-TASK 3: Check Eligibility and Add to Cart
+TASK 3: Check Eligibility and Find How to Add
   Start time / end time:
   Completed: yes / with assist (A) / no
   Path taken (screens in order):
