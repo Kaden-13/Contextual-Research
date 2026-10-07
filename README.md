@@ -34,7 +34,8 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 
 * Participants are identified only as P1 and P2.
 * No names, student IDs, grades, or other personal information are stored here.
-* Screen recordings are kept off this repository (see `.gitignore`). Screenshots are cropped or blurred to remove personal details before being committed.
+* Sessions were not recorded. Data consists of observer notes only.
+* Screenshots are taken by the researcher, not during sessions, and are cropped or blurred to remove personal details before being committed.
 
 ## Status
 
