@@ -1,108 +1,99 @@
 # Baseline Accessibility Audit (WCAG 2.1 AA)
 
 **Auditor:** Kaden Donaldson
-**Date(s):**
-**System:** eWeber portal, Register for Classes app
-**Browser and version:**
-**Tools:** axe DevTools (browser extension), WAVE (browser extension), WebAIM Contrast Checker, keyboard only testing
+**Date(s):** October 2026
+**System:** eWeber portal, Register for Classes app (Fall 2026 term)
+**Browser:** Desktop browser, full screen, plus 200% and 400% zoom
+**Tools:** WAVE browser extension, browser DevTools (inspect, computed styles, accessibility pane), contrast calculations, keyboard only testing
 
 ## Pages Tested
 
-Use the same flow steps as the heuristic evaluation.
+Register for Classes is a single page with three panes (Find Classes, Schedule, Summary), so steps S4 to S8 are all tested on the same page.
 
-| Step | Page | axe run | WAVE run | Manual checks done |
+| Page | Automated scan | Manual checks |
+| --- | --- | --- |
+| eWeber portal home (S1) | [run WAVE] | Not tested |
+| Register for Classes page (S4 to S8) | [run WAVE] | Contrast, keyboard, focus, zoom, semantic structure |
+
+## Part 1: Automated Scan
+
+**To do:** Click the WAVE extension icon on the Register for Classes page (with search results showing), record the numbers below, and save a screenshot of the summary panel as `scan_exports/register_wave.png`.
+
+| Page | WAVE errors | Contrast errors | Alerts | Most notable items |
 | --- | --- | --- | --- | --- |
-| S1 | Portal home / app launcher | | | |
-| S3 | Term selection | | | |
-| S4 | Class search form | | | |
-| S5 | Search results | | | |
-| S6 | Section details | | | |
-| S7 | Add option | | | |
+| Register for Classes | | | | |
+| Portal home (optional) | | | | |
 
-## Part 1: Automated Scans
-
-### axe DevTools
-1. Open the page, press F12, open the **axe DevTools** tab, and click **Scan all of my page**.
-2. Record the number of issues by impact (critical, serious, moderate, minor).
-3. Export or screenshot the results into `scan_exports/` (for example `S5_axe.png`).
-
-### WAVE
-1. Click the WAVE extension icon on the page.
-2. Record errors, contrast errors, and alerts.
-3. Screenshot the summary panel into `scan_exports/` (for example `S5_wave.png`).
-
-| Step | axe critical | axe serious | axe moderate | WAVE errors | WAVE contrast errors | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| S1 | | | | | | |
-| S3 | | | | | | |
-| S4 | | | | | | |
-| S5 | | | | | | |
-| S6 | | | | | | |
-| S7 | | | | | | |
-
-**Remember:** automated tools catch only part of the accessibility problems on a page. The manual checks below are required.
+Automated tools catch only part of the accessibility problems on a page, which is why the manual checks below were also done.
 
 ## Part 2: Manual Checks
 
 ### A. Color Contrast (SC 1.4.3, Contrast Minimum)
 
-**Requirement:** Normal text needs at least **4.5:1** contrast against its background. Large text (18pt, or 14pt bold) needs at least **3:1**.
+**Requirement:** Normal text needs at least **4.5:1**. Large text (18pt, or 14pt bold) needs at least **3:1**. Colors were taken from DevTools computed styles.
 
-**How to test:** Use the eyedropper in the WebAIM Contrast Checker or the contrast info in Chrome DevTools (inspect an element, then click the color swatch). Prioritize placeholder text, disabled buttons, links, table headers, status labels like "Open" or "Full," and text on colored banners.
-
-| Element | Step | Foreground | Background | Ratio | Pass / Fail |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Element | Foreground | Background | Ratio | Result |
+| --- | --- | --- | --- | --- |
+| Active "Schedule" tab label | White | #F7F7F7 | 1.07:1 | **Fail** |
+| Primary buttons (12 px bold), light top of gradient | White | #999999 | 2.85:1 | **Fail** |
+| Primary buttons, middle of gradient | White | Mid gradient | 4.42:1 | **Fail** (just under 4.5:1) |
+| Primary buttons, dark bottom of gradient | White | #575757 | 7.23:1 | Pass |
+| Disabled Submit button | Light text | Light gray | 1.66:1 | Exempt (WCAG doesn't require contrast for disabled controls) |
+| Body text | #333333 | White | 12.63:1 | Pass |
 
 ### B. Keyboard Access and Focus Visible (SC 2.1.1 Keyboard, SC 2.4.7 Focus Visible)
 
-**How to test:** Put the mouse away. Starting from the top of the page, use **Tab**, **Shift+Tab**, **Enter**, **Space**, and the **arrow keys** to complete Tasks 1 to 3.
+**Method:** Used Tab and Shift+Tab to move through the page without a mouse.
 
-| Check | Step | Result | Notes |
-| --- | --- | --- | --- |
-| Is there a "Skip to main content" link? | | | |
-| Can every control be reached with Tab? | | | |
-| Is the focus indicator visible on every control? | | | |
-| Is the tab order logical (matches visual order)? | | | |
-| Can dropdowns, date pickers, and filters be used without a mouse? | | | |
-| Can the Add and Submit buttons be activated by keyboard? | | | |
-| Do any dialogs trap focus, or lose focus when they close? | | | |
-| Could the full task be completed by keyboard only? | | | |
+| Check | Result | Notes |
+| --- | --- | --- |
+| Can every control be reached with Tab? | **No** | Focus skips the listed classes and their **Add** buttons entirely. |
+| Is the focus indicator visible on every control? | **No** | No indicator on the Add buttons (they never get focus). Where focus does appear, such as a link in the Summary, the indicator is faint. |
+| Can the Add and Submit buttons be used by keyboard? | **No** | Add can't be reached. The disabled Submit button can't be focused and gives no explanation. |
+| Could the full task be completed by keyboard only? | **No** | A keyboard only user cannot add a class. |
 
-### C. Semantic Structure and Screen Reader Support (SC 1.3.1, SC 2.4.6, SC 4.1.2)
+### C. Zoom and Reflow (SC 1.4.4 Resize Text, SC 1.4.10 Reflow)
 
-**How to test:** Use the WAVE **Structure** tab, the axe results, and Chrome DevTools **Accessibility** pane. Optionally do a quick pass with a screen reader (NVDA on Windows, VoiceOver on Mac with Cmd+F5).
+| Test | Result | Notes |
+| --- | --- | --- |
+| 200% zoom | **Fail** | The table header row and many values are clipped. |
+| 400% zoom | **Fail** | Seat counts become unreadable and the Add button is cut off. |
+| Base text size | Concern | Results grid text is 10 to 12 px; the footer with credit limits is the smallest text on the page. |
 
-| Check | Step | Result | Notes |
-| --- | --- | --- | --- |
-| Does the page have one H1 and a logical heading order? | | | |
-| Are landmarks used (header, nav, main)? | | | |
-| Does every form field have a visible, programmatically linked label? | | | |
-| Is the results table marked up as a real table with header cells? | | | |
-| Do icon only buttons have accessible names (aria-label)? | | | |
-| Are status changes (added, error) announced (aria-live)? | | | |
-| Are ARIA roles and attributes valid and not misused? | | | |
-| Do error messages identify the field in text (SC 3.3.1)? | | | |
+### D. Semantic Structure and Screen Reader Support (SC 1.3.1, SC 2.4.6, SC 3.3.2, SC 4.1.2)
+
+**Method:** Inspected the HTML in DevTools.
+
+| Check | Result | Notes |
+| --- | --- | --- |
+| Page language set? | Pass | `<html lang="en">` |
+| Landmarks used? | Partial | Has `<header>`, `<nav>` labeled "Breadcrumb navigation," and `<main>`. The bottom bar is a `<div class="footer">` instead of `<footer>`. |
+| Headings or labels for each working area? | **Fail** | Inside `<main>`, the search, schedule, and summary panes are plain `<div>`s with no headings or labels, so screen reader users can't jump between them. |
+| Real buttons used? | Partial | Submit is a real `<button>`. The "Resize panels" handles are `<div>` elements. |
+| Form fields labeled with instructions? | Partial | The search form has visible labels, but no format hints. The only instructions are behind a small info icon. |
+| Status changes announced? | Not confirmed | No live region was found for added classes or errors. |
+| Error messages explain the problem? | **Fail** | The full class error didn't say the class was full or suggest a fix (from past experience). |
 
 ## Findings Log
 
-| ID | Step | WCAG SC | Level | Issue | Evidence | Who it affects | Severity (0 to 4) | Recommendation |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A01 | | | | | | | | |
-| A02 | | | | | | | | |
-| A03 | | | | | | | | |
-| A04 | | | | | | | | |
-| A05 | | | | | | | | |
+| ID | WCAG SC | Level | Issue | Who it affects | Severity | Recommendation |
+| --- | --- | --- | --- | --- | --- | --- |
+| A01 | 2.1.1 Keyboard | A | Tab skips the listed classes and Add buttons, so a class can't be added without a mouse. | Keyboard only users, screen reader users, people with motor disabilities | 4 | Make each Add a real, focusable `<button>` in a real table so Tab reaches it. |
+| A02 | 2.4.7 Focus Visible | AA | No focus indicator on the Add buttons, and a faint one elsewhere. | Keyboard users, low vision users | 3 | Add a thick, high contrast focus outline on every control. |
+| A03 | 1.4.3 Contrast | AA | Active "Schedule" tab label is 1.07:1, essentially invisible. | Low vision and color blind users, anyone in glare | 3 | Use dark text on the light tab, or a dark tab background. |
+| A04 | 1.4.3 Contrast | AA | Primary button labels drop to 2.85:1 over the light part of the gradient. | Low vision users | 2 | Use a solid dark button color that gives at least 4.5:1. |
+| A05 | 1.4.10 Reflow, 1.4.4 Resize Text | AA | At 200% and 400% zoom, table content is clipped and the Add button is cut off. | Low vision users who zoom, phone users | 3 | Use a responsive layout that stacks on narrow screens, and 16 px base text. |
+| A06 | 1.3.1 Info and Relationships, 2.4.6 Headings and Labels | A / AA | The three main panes have no headings or labels. | Screen reader users | 2 | Wrap each pane in a labeled `<section>` with a heading. |
+| A07 | 3.3.2 Labels or Instructions | A | Search fields have no format hints; help is hidden behind an info icon. | Users with cognitive disabilities, new students | 2 | Put hints under labels and link them with `aria-describedby`. |
+| A08 | 3.3.3 Error Suggestion | AA | The full class error doesn't name the problem or suggest a fix. | Everyone, especially screen reader and cognitive disability users | 3 | Write errors that name the cause and next step, and announce them with an `aria-live` region. |
 
 ## Summary
 
-**Overall result:** Pass / Partial / Fail against WCAG 2.1 AA for the tested flow
+**Overall result:** **Fail** against WCAG 2.1 AA for the tested flow. The most important task on the page, adding a class, cannot be done by keyboard.
 
 **Most serious barriers:**
-1.
-2.
-3.
+1. **A01:** A keyboard only user cannot reach the Add buttons, so they cannot register at all.
+2. **A05:** Zooming in clips content and cuts off the Add button.
+3. **A03 and A08:** A nearly invisible tab label, and an error message that doesn't explain what went wrong.
 
-**Heuristic violation linked to a WCAG failure (for reflection question 2):**
+**Heuristic violation linked to a WCAG failure (for reflection question 2):** HE01 and A01/A02. The registration status is already hard to see (H1, visibility of system status), and for keyboard users the Add buttons don't receive focus or show a focus indicator at all, a direct SC 2.1.1 and 2.4.7 failure.

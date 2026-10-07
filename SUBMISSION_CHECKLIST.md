@@ -17,20 +17,16 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
   * 3 to 5 themes with quotes, mental model mismatches, and breakdown points
 * [ ] **Update the problem statement evidence:** replace the 4 `[fill in ...]` lines at the bottom of `01_problem_statement/problem_statement.md`.
 
-## Heuristic Evaluation (you, on your own eWeber account)
+## Heuristic Evaluation
 
-* [ ] Fill in the evaluator header (date, browser, term).
-* [ ] Walk the 9 flow steps and log each issue in the findings table with a severity rating.
-* [ ] Screenshot every issue into `screenshots/raw/`, cropping out personal info.
-* [ ] Fill in the summary table and top 3 issues.
+* [x] Findings logged with severity ratings (12 issues)
+* [ ] Add your existing screenshots (search form, results, Summary, zoom tests) to `screenshots/raw/`
+* [ ] Take the 3 missing screenshots: portal home, term selection, and a section's details
 
 ## Accessibility Audit
 
-* [ ] Install the **axe DevTools** and **WAVE** browser extensions.
-* [ ] Run both on each page and fill in the scan table in `04_accessibility_audit/wcag_audit_checklist.md`.
-* [ ] Save scan screenshots into `04_accessibility_audit/scan_exports/`.
-* [ ] Do the manual checks: contrast ratios, keyboard only run through, and structure and ARIA.
-* [ ] Fill in the findings log and summary, including the heuristic violation you'll use for reflection question 2.
+* [x] Manual checks done: contrast, keyboard, focus, zoom, semantic structure (8 findings)
+* [ ] **Run WAVE once** on the Register for Classes page with results showing, fill in the scan table, and screenshot the summary panel. The assignment asks for an automated tool, and this is the only part not already done.
 
 ## Report (`05_report/`)
 

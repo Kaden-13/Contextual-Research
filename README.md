@@ -45,6 +45,6 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | Research protocol | Complete |
 | User sessions (P1 and P2) | Not started |
 | Synthesis | Not started |
-| Heuristic evaluation | Not started |
-| Accessibility audit | Not started |
+| Heuristic evaluation | Complete |
+| Accessibility audit | Manual checks complete, WAVE scan to do |
 | Final report | Outline complete |
