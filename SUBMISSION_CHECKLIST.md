@@ -4,8 +4,7 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 
 ## Before the Sessions
 
-* [ ] **Swap the Task 1 course.** In `02_user_research/interview_protocol.md`, replace ENGL 2010 with a course that has several sections next term (check the class search first).
-* [ ] **Confirm next term's schedule is posted** so participants can actually search it.
+* [x] Task 1 lets participants pick any class that interests them, so there's nothing to prep.
 
 ## During and After the Sessions
 

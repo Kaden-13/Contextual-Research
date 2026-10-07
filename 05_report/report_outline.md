@@ -39,7 +39,7 @@ The primary users are Weber State undergraduates. Many are traditional students 
 Registration is time sensitive and high stakes. Seats in popular sections fill quickly, and a wrong choice can delay graduation. When the interface relies on registrar codes, spreads key information across screens, or explains errors in system terms, students lose time, register for the wrong section, or give up and turn to an advisor or friend. For the university, that means more load on advising and the registrar, slower progress toward degrees, and legal exposure under the ADA and Section 504 if the system is not accessible.
 
 **Core tasks evaluated**
-1. Find a specific course
+1. Find a class of the participant's choosing
 2. Compare sections by time, delivery method, and open seats
 3. Confirm eligibility (prerequisites, restrictions, holds)
 4. Locate how to add a section (no classes were actually added in this mock run)

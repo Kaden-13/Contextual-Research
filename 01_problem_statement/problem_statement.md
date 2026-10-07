@@ -20,7 +20,7 @@
 
 ## Core User Tasks
 
-1. **Find a course:** Search for a specific required course by subject and number.
+1. **Find a course:** Search for a class by subject, course number, or keyword.
 2. **Evaluate sections:** Compare available sections by days, times, delivery method, instructor, and open seats.
 3. **Confirm eligibility:** Check prerequisites, restrictions, and whether a section is full or waitlisted.
 4. **Register:** Add the chosen section to the cart and complete registration.

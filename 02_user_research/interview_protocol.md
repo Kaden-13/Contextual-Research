@@ -67,9 +67,9 @@ If they're stuck for about 2 minutes, ask "What would you do next if I weren't h
 
 ### Task 1: Find a Course
 
-> You need to take ENGL 2010. Find the list of sections being offered this semester.
+> Think of a class that interests you. Find the list of sections being offered for it this semester.
 
-*Substitute any common general education course offered that term.*
+*The specific class doesn't matter. If it isn't offered this semester, have them try a different one, and note how they figured out it wasn't available. If the class only has one section, ask them to pick another so Task 2 has sections to compare.*
 
 **Watch for:** finding the right app, the tuition agreement screen, term selection, subject codes, use of advanced search.
 
@@ -79,7 +79,7 @@ If they're stuck for about 2 minutes, ask "What would you do next if I weren't h
 
 ### Task 2: Choose a Section That Fits Your Life
 
-> You work every weekday until 1:00 PM. Find a section of that course that starts after 1:00 PM, or is fully online, and still has open seats.
+> You work every weekday until 1:00 PM. Find a section of that class that starts after 1:00 PM, or is fully online, and still has open seats.
 
 **Watch for:** finding times, delivery method, and open seats; reading abbreviations; scrolling or switching screens; trying to filter by time.
 
