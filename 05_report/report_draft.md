@@ -164,12 +164,13 @@ At 200% zoom the results table header and many values are clipped. At 400%, seat
 | HE10 | H6 | Students must remember CRNs, pending vs. registered status, and outside approval steps. | Keep pending and registered visibly separate. |
 | HE11 | H8 | Add is at the top, results at the bottom, and Submit in the far corner, all in 10 to 12 px text. | Confirm next to Add; use 16 px text. |
 
-*Figure: clean screenshot of the Register for Classes page with search results (WAVE off), Summary blurred. Markers: 1 waitlist line on an open section (HE05), 2 jargon column headers (HE07), 3 Add button (HE01), 4 Submit button in the corner (HE01, HE11). Alt text: "Register for Classes search results with numbered markers on the waitlist line, the CRN and Schedule Type column headers, the Add button, and the Submit button in the bottom right corner."*
+*Figure: `screenshots/annotated/S5_register_results_annotated.png`. Caption: "Register for Classes search results. 1: Add button, which only stages the class (HE01). 2: Disabled Submit button in the far bottom right corner, with no explanation (HE01, HE04, HE11). 3: Unexplained jargon columns CRN, Schedule Type, Attribute, and Linked Sections (HE07). 4: Truncated campus and building text on a full screen (HE06). 5: Inline Time Conflict warning, one of the things the interface does well." Alt text: "Register for Classes page showing Aerospace search results with five numbered markers: the Add button, the grayed out Submit button in the bottom right corner, the CRN, Schedule Type, Attribute, and Linked Sections column headers, cut off campus and building text, and a red Time Conflict warning. The student's schedule and summary are blurred for privacy."*
 
 ### What Works
 
 * Green "Registered" labels give clear status after Submit succeeds.
 * The weekly calendar shows how classes fit together and makes time conflicts visible.
+* A red "Time Conflict!" warning appears right in the search results, before the student clicks Add.
 * The breadcrumb shows where the student is in the process.
 * The Total Hours line helps students stay under the 20 credit maximum.
 

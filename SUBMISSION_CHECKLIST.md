@@ -19,8 +19,7 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 ## Heuristic Evaluation
 
 * [x] Findings logged with severity ratings (12 issues)
-* [ ] Add your existing screenshots (search form, results, Summary, zoom tests) to `screenshots/raw/`
-* [ ] Take the 3 missing screenshots: portal home, term selection, and a section's details
+* [x] Screenshots saved and annotated
 
 ## Accessibility Audit
 
@@ -31,7 +30,7 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 
 * [x] Sections 1, 2, 3, 5, 6, 7 drafted; both reflections drafted
 * [ ] Fill in the **[bracketed]** spots with session results (or send me your notes and I'll do it)
-* [ ] Take 1 clean screenshot of the Register for Classes results page with WAVE off
+* [x] Clean results screenshot taken, blurred, and annotated (`screenshots/annotated/`)
 * [ ] Add the date on the cover page and reword the reflections in your voice
 * [ ] Build in Word or Google Docs, add screenshots with numbered markers and the alt text from the draft
 * [ ] Export as **Phase1_Usability_Audit.pdf**, run through the formatting checklist, and commit it to `05_report/`

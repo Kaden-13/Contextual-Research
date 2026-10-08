@@ -63,6 +63,7 @@ These parts of the interface support the user and should be kept:
 
 * **Green "Registered" labels** in the Summary give clear status once Submit succeeds (H1).
 * **The weekly calendar** shows how classes fit together and makes time conflicts visible (H1, H6).
+* **An inline "Time Conflict!" warning** appears in the search results before the student clicks Add (H5).
 * **The breadcrumb** at the top shows where the user is in the process (H1).
 * **The Total Hours line** helps students stay under the 20 credit hour maximum (H5).
 
