@@ -19,7 +19,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | `04_accessibility_audit/scan_exports/` | WAVE scan screenshots |
 | `screenshots/raw/` | Unedited screenshots captured during evaluation |
 | `screenshots/annotated/` | Screenshots marked up for the report |
-| `05_report/` | Report outline, draft text, and final `Phase1_Usability_Audit.pdf` |
+| `05_report/` | Report draft, and final `Phase1_Usability_Audit.pdf` |
 
 ## Method Summary
 
@@ -47,4 +47,4 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | Synthesis | Not started |
 | Heuristic evaluation | Complete |
 | Accessibility audit | Complete |
-| Final report | Outline complete |
+| Final report | Draft complete except user research findings |

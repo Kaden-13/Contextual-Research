@@ -27,15 +27,14 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 * [x] Manual checks done: contrast, keyboard, focus, zoom, semantic structure
 * [x] WAVE scans on 5 pages logged, 4 screenshots saved in `scan_exports/` (12 findings total)
 
-## Report (`05_report/`)
+## Report (`05_report/report_draft.md`)
 
-* [ ] Add the date on the cover page.
-* [ ] Write sections 1 and 4 to 8 using your findings (sections 2 and 3 are already drafted; reread them so they match what actually happened).
-* [ ] Annotate screenshots with numbered markers and put them in `screenshots/annotated/`.
-* [ ] Write both reflection answers in your own words.
-* [ ] Build the report in Word or Google Docs and export it as **Phase1_Usability_Audit.pdf**.
-* [ ] Run through the PDF accessibility checklist at the bottom of `report_outline.md` (headings, alt text, contrast, tagged PDF).
-* [ ] Commit the final PDF into `05_report/`.
+* [x] Sections 1, 2, 3, 5, 6, 7 drafted; both reflections drafted
+* [ ] Fill in the **[bracketed]** spots with session results (or send me your notes and I'll do it)
+* [ ] Take 1 clean screenshot of the Register for Classes results page with WAVE off
+* [ ] Add the date on the cover page and reword the reflections in your voice
+* [ ] Build in Word or Google Docs, add screenshots with numbered markers and the alt text from the draft
+* [ ] Export as **Phase1_Usability_Audit.pdf**, run through the formatting checklist, and commit it to `05_report/`
 
 ## Repository and Submission
 

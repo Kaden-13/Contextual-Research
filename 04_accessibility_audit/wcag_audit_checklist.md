@@ -125,4 +125,4 @@ Automated tools catch only part of the accessibility problems on a page. The key
 3. **A09 and A10:** 19 broken ARIA references and 89 contrast errors on the search results, the exact screen where students pick classes.
 4. **A03 and A08:** A nearly invisible tab label, and an error message that doesn't explain what went wrong.
 
-**Heuristic violation linked to a WCAG failure (for reflection question 2):** HE01 and A01/A02. The registration status is already hard to see (H1, visibility of system status), and for keyboard users the Add buttons don't receive focus or show a focus indicator at all, a direct SC 2.1.1 and 2.4.7 failure.
+**Heuristic violation linked to a WCAG failure (for reflection question 2):** HE02 (H9, help users recognize, diagnose, and recover from errors) and A08 (SC 3.3.3 Error Suggestion). The full class error doesn't say the class is full or what to do next.

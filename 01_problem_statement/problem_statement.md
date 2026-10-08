@@ -4,7 +4,7 @@
 
 **Platform:** Weber State University class search and registration, accessed through the eWeber student portal. Students register with either the **Register for Classes (Add/Drop)** app or the **Registration Schedule Builder** app.
 
-**Scope of this audit:** The flow a student follows in the Register for Classes app to find a course, evaluate its sections, confirm eligibility, and add it to their schedule. The Registration Schedule Builder is noted where participants choose to use it instead. Because this audit takes place outside the registration window, sessions are a mock run: participants search current semester classes and show how they would add one, but do not actually add or submit anything.
+**Scope of this audit:** The flow a student follows in the Register for Classes app to find a course, evaluate its sections, confirm eligibility, and add it to their schedule. The Registration Schedule Builder is noted where participants choose to use it instead. So that no one's real schedule changes, sessions are a mock run: participants search current semester classes and show how they would add one, but do not actually add or submit anything.
 
 ## Target Users
 
