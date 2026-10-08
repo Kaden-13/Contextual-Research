@@ -16,7 +16,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | `02_user_research/synthesis/` | Affinity mapping and thematic pain points |
 | `03_heuristic_evaluation/` | Nielsen's 10 heuristics evaluation log with severity ratings |
 | `04_accessibility_audit/` | WCAG 2.1 AA checklist, manual test results, findings |
-| `04_accessibility_audit/scan_exports/` | Exported axe DevTools and WAVE results |
+| `04_accessibility_audit/scan_exports/` | WAVE scan screenshots |
 | `screenshots/raw/` | Unedited screenshots captured during evaluation |
 | `screenshots/annotated/` | Screenshots marked up for the report |
 | `05_report/` | Report outline, draft text, and final `Phase1_Usability_Audit.pdf` |
@@ -27,7 +27,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 2. **Contextual inquiry:** Observed 2 Weber State students, one new to registration and one experienced, completing 3 realistic registration tasks while thinking aloud, followed by a short semi structured interview.
 3. **Synthesis:** Grouped quotes, errors, and breakdown points into themes using affinity mapping.
 4. **Heuristic evaluation:** Walked through each step of the registration flow against Nielsen's 10 Usability Heuristics and rated each issue from 0 (no issue) to 4 (usability catastrophe).
-5. **Accessibility audit:** Ran axe DevTools and WAVE scans, then manually tested color contrast (SC 1.4.3), keyboard access and focus visibility (SC 2.4.7), and semantic structure and ARIA support.
+5. **Accessibility audit:** Ran WAVE scans on 5 pages of the flow, then manually tested color contrast (SC 1.4.3), keyboard access and focus visibility (SC 2.4.7), and semantic structure and ARIA support.
 6. **Report:** Combined all findings into an executive level report with annotated screenshots and a post mortem reflection.
 
 ## Privacy
@@ -46,5 +46,5 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | User sessions (P1 and P2) | Not started |
 | Synthesis | Not started |
 | Heuristic evaluation | Complete |
-| Accessibility audit | Manual checks complete, WAVE scan to do |
+| Accessibility audit | Complete |
 | Final report | Outline complete |

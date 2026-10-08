@@ -24,8 +24,8 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 
 ## Accessibility Audit
 
-* [x] Manual checks done: contrast, keyboard, focus, zoom, semantic structure (8 findings)
-* [ ] **Run WAVE once** on the Register for Classes page with results showing, fill in the scan table, and screenshot the summary panel. The assignment asks for an automated tool, and this is the only part not already done.
+* [x] Manual checks done: contrast, keyboard, focus, zoom, semantic structure
+* [x] WAVE scans on 5 pages logged, 4 screenshots saved in `scan_exports/` (12 findings total)
 
 ## Report (`05_report/`)
 

@@ -51,4 +51,4 @@ This statement will be validated or revised using the data gathered in this phas
 * Task completion rate and time on task from 2 observed user sessions: [fill in after sessions]
 * Direct user quotes and observed breakdown points: [fill in after sessions]
 * Heuristic violations with severity ratings: 12 issues logged, 4 rated severity 3 (major), led by the Add then Submit split and a full class error that never says the class is full
-* WCAG 2.1 AA failures: 8 issues logged; the flow fails AA because a keyboard only user cannot reach the Add buttons (SC 2.1.1), plus contrast as low as 1.07:1 and clipped content at 200% and 400% zoom
+* WCAG 2.1 AA failures: 12 issues logged, and WAVE rates the search results page 2.5 out of 10 (23 errors, 89 contrast errors); the flow fails AA because a keyboard only user cannot reach the Add buttons (SC 2.1.1), plus contrast as low as 1.07:1 and clipped content at 200% and 400% zoom
