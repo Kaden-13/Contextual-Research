@@ -2,7 +2,7 @@
 
 Final file: `Phase1_Usability_Audit.pdf`
 
-Everything below is written and ready to paste into Word or Google Docs. The only bracket left is the date on the cover page. Figure notes in *italics* say which screenshot goes where and give alt text to paste in.
+Everything below is written and ready to paste into Word or Google Docs. All sections are complete. Figure notes in *italics* say which screenshot goes where and give alt text to paste in.
 
 ---
 
@@ -11,7 +11,7 @@ Everything below is written and ready to paste into Word or Google Docs. The onl
 **Phase 1 Usability Audit: Weber State University Class Registration**
 Kaden Donaldson
 Human Computer Interaction
-[Date]
+October 9, 2026
 GitHub repository: https://github.com/Kaden-13/Contextual-Research
 
 ---
@@ -23,6 +23,7 @@ This audit evaluated the Register for Classes app in Weber State University's eW
 The audit combined a contextual inquiry with 2 students (one new to registration, one experienced), an expert review against Nielsen's 10 Usability Heuristics, and a WCAG 2.1 AA accessibility audit using WAVE and manual testing.
 
 **The most serious findings:**
+
 1. **A keyboard only user cannot register.** Pressing Tab skips every listed class and every Add button (WCAG 2.1.1, severity 4).
 2. **Clicking Add does not register you.** Add only places a class in a pending list, and nothing is registered until a separate Submit button in the far corner is clicked (H1, H5).
 3. **Class times are hard to find, and prerequisites aren't on the page at all.** The novice participant asked "Where do i see the time for the class" and needed help, and both participants had to leave the page (CatTracks or an advisor) to check eligibility.
@@ -36,6 +37,7 @@ In the sessions, the novice student needed help just to find class times, took m
 **Fix first:** Make every Add button reachable and visible by keyboard, clearly separate "pending" from "registered," and show class times and prerequisites in plain text on each result. Those changes remove the biggest legal risk, the most costly student mistake, and the biggest source of confusion in the sessions.
 
 > **Callout: Key numbers**
+>
 > * 14 heuristic issues, 6 rated major (severity 3)
 > * 12 WCAG 2.1 AA findings, 1 rated severity 4
 > * WAVE AIM Score on the search results page: **2.5 / 10**
@@ -53,6 +55,7 @@ The primary users are Weber State undergraduates. Many are traditional students 
 Registration is time sensitive and high stakes. Seats in popular sections fill quickly, and a wrong choice can delay graduation. Weber State also does not drop students for nonpayment or nonattendance, so a student who believes they dropped or never registered for a class can still be charged. When the interface relies on registrar codes, spreads key information across the page, or explains errors in system terms, students lose time, make costly mistakes, or give up and turn to an advisor or friend. For the university, that means more load on advising and the registrar, slower progress toward degrees, and legal exposure under the ADA and Section 504 if the system is not accessible.
 
 **Core tasks evaluated**
+
 1. Find a class of the participant's choosing
 2. Compare sections by time, delivery method, and open seats
 3. Confirm eligibility and locate how to add a section
@@ -97,9 +100,10 @@ This audit combined three methods so that findings from one could be checked aga
 5 of 6 tasks were completed without help. The novice spent 35 minutes on the first two tasks, compared with 15 for the experienced student.
 
 > **Callout: In their words**
-> "Where do i see the time for the class" (P1)
-> "Why do i have to click so many buttons" (P1)
-> "I had to switch to the computer because it was just to much trying to do it on my phone" (P1)
+>
+> * "Where do i see the time for the class" (P1)
+> * "Why do i have to click so many buttons" (P1)
+> * "I had to switch to the computer because it was just to much trying to do it on my phone" (P1)
 
 ### Theme 1: "Where do I see the time?" Class details are hard to read
 
@@ -217,6 +221,7 @@ Students must open CatTracks in a separate tab or ask an advisor to know whether
 ## 6. Accessibility Audit Findings
 
 > **Callout: Can a keyboard only user register for a class?**
+>
 > **No.** Tab skips every listed class and every Add button.
 
 ### Automated Scan (WAVE)

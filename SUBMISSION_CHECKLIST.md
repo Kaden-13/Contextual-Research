@@ -27,13 +27,14 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 * [x] Sections 1, 2, 3, 5, 6, 7 drafted; both reflections drafted
 * [x] Session results filled into the report
 * [x] Clean results screenshot taken, blurred, and annotated (`screenshots/annotated/`)
-* [ ] Add the date on the cover page and reword the reflections in your voice
-* [ ] Build in Word or Google Docs, add screenshots with numbered markers and the alt text from the draft
-* [ ] Export as **Phase1_Usability_Audit.pdf**, run through the formatting checklist, and commit it to `05_report/`
+* [x] Date added (October 9, 2026)
+* [ ] Reword the reflections in section 8 in your own voice
+* [x] PDF built with annotated screenshots, alt text, callouts, and tagged structure
+* [x] `05_report/Phase1_Usability_Audit.pdf` committed
 
 ## Repository and Submission
 
 * [x] Status table in `README.md` updated
-* [ ] Commit and push everything.
+* [x] Everything committed and pushed
 * [ ] Give your instructor access: Settings, then Collaborators, or make the repo public if allowed.
 * [ ] Submit the PDF and the repo link: https://github.com/Kaden-13/Contextual-Research

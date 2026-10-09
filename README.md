@@ -47,4 +47,4 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | Synthesis | Complete |
 | Heuristic evaluation | Complete |
 | Accessibility audit | Complete |
-| Final report | Draft complete, PDF to build |
+| Final report | Complete (`05_report/Phase1_Usability_Audit.pdf`) |
