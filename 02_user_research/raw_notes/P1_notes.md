@@ -1,65 +1,45 @@
 # P1 Raw Observation Notes (novice)
 
-Write notes during the session. Afterward, add clarifications only in the Cleanup notes section at the bottom instead of editing what you wrote live.
-
-Shorthand: `?` confused or hesitated, `X` error or wrong turn, `!` strong reaction, `A` assisted, `W` workaround. [Brackets] = my interpretation.
+Notes taken live during the session (not recorded). Text in quotation marks is word for word.
 
 ```
-Participant: P1 (novice)
-Date:
-Start time / end time:
-Device / browser:
-Location / setting:
-Year / registration experience:
+PARTICIPANT: P1 (novice)
+Date: October 2026
+Year & major: Freshman
+Times registered before: 1
+Device: Computer and iPhone
 
-WARM UP
-  Answers:
+TASK 1: Find a class
+Class picked: MATH 1220 (Calc II)
+Had to try another? N
+Done: alone
+Time: 15 mins
+Got stuck on: None
 
-TASK 1: Find a Course
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  After task answers:
+TASK 2: Section after 1 PM or online, with open seats
+Done: with help
+Time: 20 minutes to complete
+Didn't understand: Finding class times confidently until shown how
+Confidence (1 to 5): 2
 
-TASK 2: Choose a Section
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  Confidence rating (1 to 5):
-  After task answers:
+TASK 3: Allowed to take it? How would you add it?
+Done: alone
+Where they looked for prereqs: CatTracks (a different tab is needed to have both Register for Classes and CatTracks open)
+What they think Add does: When they first tried to register they thought that was all they had to click, but now they know it needs to be added and submitted
+How they'd know it worked: They didn't at first, until they saw the Submit button and checked
 
-TASK 3: Check Eligibility and Add to Cart
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  After task answers:
+QUOTES:
+"I had to switch to the computer because it was just to much trying to do it on my phone"
+"Where do i see the time for the class"
+"Why do i have to click so many buttons"
 
-Mental model mismatches (what they expected vs. what happened):
+CONFUSED / HESITATED AT: Finding the class times, selecting the option of Enrolled to submit
 
-Post task answers:
-  Hardest task:
-  Didn't understand / ignored:
-  One change:
-  Ease rating (1 to 5):
+SHORTCUTS / WORKAROUNDS: I (researcher) showed how to find class times faster and find class CRNs easier using CatTracks [counted as the assist on Task 2]
 
-Screens to screenshot myself later:
-
-My interpretations [kept separate from observations]:
-
-Cleanup notes (added after session, dated):
+END QUESTIONS
+Hardest task & why: Chore of going back and forth between CatTracks as well as finding all the class info
+Didn't understand or ignored: Why the process was so drawn out and needed so many different steps to find and register for a single class
+One thing they'd change: The info displayed for the classes, the number of button presses, merge CatTracks and the registration portal
+Ease rating (1 to 5): 1
 ```

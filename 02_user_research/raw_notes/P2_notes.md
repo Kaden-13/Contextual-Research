@@ -1,65 +1,42 @@
 # P2 Raw Observation Notes (experienced)
 
-Write notes during the session. Afterward, add clarifications only in the Cleanup notes section at the bottom instead of editing what you wrote live.
-
-Shorthand: `?` confused or hesitated, `X` error or wrong turn, `!` strong reaction, `A` assisted, `W` workaround. [Brackets] = my interpretation.
+Notes taken live during the session (not recorded).
 
 ```
-Participant: P2 (experienced)
-Date:
-Start time / end time:
-Device / browser:
-Location / setting:
-Year / registration experience:
+PARTICIPANT: P2 (experienced)
+Date: October 2026
+Year & major: Junior, Radiology
+Times registered before: 5
+Device: Laptop
 
-WARM UP
-  Answers:
+TASK 1: Find a class
+Class picked: HTHS 2100 (Human Anatomy and Physiology)
+Had to try another? N
+Done: alone
+Time: 5 minutes
+Got stuck on: nothing
 
-TASK 1: Find a Course
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  After task answers:
+TASK 2: Section after 1 PM or online, with open seats
+Done: alone
+Time: 10 minutes
+Didn't understand: nothing
+Confidence (1 to 5): 5
 
-TASK 2: Choose a Section
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  Confidence rating (1 to 5):
-  After task answers:
+TASK 3: Allowed to take it? How would you add it?
+Done: alone
+Where they looked for prereqs: advisor
+What they think Add does: adds to schedule but doesn't register
+How they'd know it worked: shows up in the bottom right hand corner
 
-TASK 3: Check Eligibility and Add to Cart
-  Start time / end time:
-  Completed: yes / with assist (A) / no
-  Path taken (screens in order):
-  Errors or wrong turns (X):
-  Hesitations or confusion (?):
-  Workarounds (W):
-  Quotes (word for word, in quotes):
-  Breakdown points:
-  After task answers:
+QUOTES: none. Participant was silent while working on the tasks. Said they don't use CatTracks or the registration portal because they use advisors and the Schedule Builder.
 
-Mental model mismatches (what they expected vs. what happened):
+CONFUSED / HESITATED AT: none
 
-Post task answers:
-  Hardest task:
-  Didn't understand / ignored:
-  One change:
-  Ease rating (1 to 5):
+SHORTCUTS / WORKAROUNDS: does not use the registration portal; uses Schedule Builder and an advisor
 
-Screens to screenshot myself later:
-
-My interpretations [kept separate from observations]:
-
-Cleanup notes (added after session, dated):
+END QUESTIONS
+Hardest task & why: Task 2, takes longer to find a class that works with my schedule and with other courses
+Didn't understand or ignored: nothing
+One thing they'd change: using the registration portal [would rather not have to use it]
+Ease rating (1 to 5): 4
 ```

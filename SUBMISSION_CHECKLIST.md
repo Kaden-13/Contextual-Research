@@ -8,17 +8,13 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 
 ## During and After the Sessions
 
-* [ ] **Run P1 (novice) and P2 (experienced).** Take notes live in `02_user_research/raw_notes/P1_notes.md` and `P2_notes.md`.
-* [ ] **Clean up notes the same day**, using the Cleanup notes section at the bottom of each file.
-* [ ] **Fill in the synthesis:** `02_user_research/synthesis/affinity_themes.md`
-  * Task results table (completion and times)
-  * Average ease rating
-  * 3 to 5 themes with quotes, mental model mismatches, and breakdown points
-* [ ] **Update the problem statement evidence:** replace the 4 `[fill in ...]` lines at the bottom of `01_problem_statement/problem_statement.md`.
+* [x] Sessions run with P1 (novice) and P2 (experienced); notes saved in `raw_notes/`
+* [x] Synthesis complete: task results, 5 themes, novice vs. experienced comparison
+* [x] Problem statement evidence filled in
 
 ## Heuristic Evaluation
 
-* [x] Findings logged with severity ratings (12 issues)
+* [x] Findings logged with severity ratings (14 issues, including 2 found in the sessions)
 * [x] Screenshots saved and annotated
 
 ## Accessibility Audit
@@ -29,7 +25,7 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 ## Report (`05_report/report_draft.md`)
 
 * [x] Sections 1, 2, 3, 5, 6, 7 drafted; both reflections drafted
-* [ ] Fill in the **[bracketed]** spots with session results (or send me your notes and I'll do it)
+* [x] Session results filled into the report
 * [x] Clean results screenshot taken, blurred, and annotated (`screenshots/annotated/`)
 * [ ] Add the date on the cover page and reword the reflections in your voice
 * [ ] Build in Word or Google Docs, add screenshots with numbered markers and the alt text from the draft
@@ -37,7 +33,7 @@ Everything left to change or fill in before Phase 1 is ready to submit, in the o
 
 ## Repository and Submission
 
-* [ ] Update the Status table in `README.md`.
+* [x] Status table in `README.md` updated
 * [ ] Commit and push everything.
 * [ ] Give your instructor access: Settings, then Collaborators, or make the repo public if allowed.
 * [ ] Submit the PDF and the repo link: https://github.com/Kaden-13/Contextual-Research

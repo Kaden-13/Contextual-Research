@@ -2,7 +2,7 @@
 
 Final file: `Phase1_Usability_Audit.pdf`
 
-Everything below is written and ready to paste into Word or Google Docs. Text in **[brackets]** still needs your session results. Figure notes in *italics* say which screenshot goes where and give alt text to paste in.
+Everything below is written and ready to paste into Word or Google Docs. The only bracket left is the date on the cover page. Figure notes in *italics* say which screenshot goes where and give alt text to paste in.
 
 ---
 
@@ -25,21 +25,22 @@ The audit combined a contextual inquiry with 2 students (one new to registration
 **The most serious findings:**
 1. **A keyboard only user cannot register.** Pressing Tab skips every listed class and every Add button (WCAG 2.1.1, severity 4).
 2. **Clicking Add does not register you.** Add only places a class in a pending list, and nothing is registered until a separate Submit button in the far corner is clicked (H1, H5).
-3. **Errors don't explain themselves.** Trying to add a full class produces a vague error that never says the class is full or what to do next (H9, WCAG 3.3.3).
-4. **The page where students choose classes is the least accessible page in the flow.** Once search results load, WAVE errors jump from 3 to 23, contrast errors from 1 to 89, and the AIM Score drops from 8.7 to 2.5 out of 10.
+3. **Class times are hard to find, and prerequisites aren't on the page at all.** The novice participant asked "Where do i see the time for the class" and needed help, and both participants had to leave the page (CatTracks or an advisor) to check eligibility.
+4. **Errors don't explain themselves.** Trying to add a full class produces a vague error that never says the class is full or what to do next (H9, WCAG 3.3.3).
+5. **The page where students choose classes is the least accessible page in the flow.** Once search results load, WAVE errors jump from 3 to 23, contrast errors from 1 to 89, and the AIM Score drops from 8.7 to 2.5 out of 10.
 
-[One or two sentences on what the sessions showed, for example how many tasks each participant finished on their own and the biggest theme.]
+In the sessions, the novice student needed help just to find class times, took more than twice as long as the experienced student, and rated the experience 1 out of 5. The experienced student moved quickly, but only because she normally avoids the portal, relying on the Schedule Builder and her advisor instead.
 
 **Overall accessibility result:** The registration flow **fails** WCAG 2.1 AA.
 
-**Fix first:** Make every Add button reachable and visible by keyboard, and clearly separate "pending" from "registered." Those two changes remove the biggest legal risk and the most costly student mistake.
+**Fix first:** Make every Add button reachable and visible by keyboard, clearly separate "pending" from "registered," and show class times and prerequisites in plain text on each result. Those changes remove the biggest legal risk, the most costly student mistake, and the biggest source of confusion in the sessions.
 
 > **Callout: Key numbers**
-> * 12 heuristic issues, 4 rated major (severity 3)
+> * 14 heuristic issues, 6 rated major (severity 3)
 > * 12 WCAG 2.1 AA findings, 1 rated severity 4
 > * WAVE AIM Score on the search results page: **2.5 / 10**
 > * Lowest measured contrast: **1.07:1** (requirement is 4.5:1)
-> * [Task completion: X of 6 tasks completed without help]
+> * 5 of 6 user tasks completed without help; ease ratings of 1 (novice) and 4 (experienced) out of 5
 
 ---
 
@@ -71,39 +72,68 @@ This audit combined three methods so that findings from one could be checked aga
 
 **Accessibility audit.** I scanned 5 pages of the flow with the WAVE browser extension, then manually tested color contrast (SC 1.4.3), keyboard access and visible focus (SC 2.1.1 and 2.4.7), zoom at 200% and 400% (SC 1.4.4 and 1.4.10), and semantic structure and ARIA support (`04_accessibility_audit/wcag_audit_checklist.md`).
 
-**Limitations.** With only 2 participants, both of whom I know personally, the research shows the kinds of problems students run into, not how often they occur across all students. Participants who know the researcher may also soften criticism, so I emphasized that the system was being tested, not them. The evaluation was done by a single evaluator. Because nothing was actually submitted, the final registration step, system behavior under heavy load, and real seat competition were not observed; the full class error is based on my own past registration experience.
+**Limitations.** With only 2 participants, both of whom I know personally, the research shows the kinds of problems students run into, not how often they occur across all students. Participants who know the researcher may also soften criticism, so I emphasized that the system was being tested, not them. The evaluation was done by a single evaluator. Because nothing was actually submitted, the final registration step, system behavior under heavy load, and real seat competition were not observed; the full class error is based on my own past registration experience. The experienced participant worked silently, so her data comes from her behavior and end of session answers rather than quotes, and Task 3 times were not recorded.
 
 ---
 
 ## 4. User Research Findings
 
-[Fill in from your session notes. I can write this section once you send them.]
-
 ### Participants
 
-| ID | Experience | Year | Device |
+| ID | Experience | Year and major | Device |
 | --- | --- | --- | --- |
-| P1 | Novice, [registered X times] | [ ] | [ ] |
-| P2 | Experienced, [many semesters] | [ ] | [ ] |
+| P1 | Novice, registered once before | Freshman | iPhone, then switched to a computer |
+| P2 | Experienced, registered 5 times | Junior, Radiology | Laptop |
 
 ### Task Results
 
 | Task | P1 (novice) | P2 (experienced) |
 | --- | --- | --- |
-| T1: Find a class | [Y / A / N, time] | [ ] |
-| T2: Choose a section that fits a schedule | [ ] | [ ] |
-| T3: Check eligibility and find how to add | [ ] | [ ] |
-| Ease rating (1 to 5) | [ ] | [ ] |
+| T1: Find a class | Completed alone, 15 min | Completed alone, 5 min |
+| T2: Choose a section that fits a schedule | **Needed help**, 20 min, confidence 2/5 | Completed alone, 10 min, confidence 5/5 |
+| T3: Check eligibility and find how to add | Completed alone | Completed alone |
+| Ease rating (1 to 5) | **1** | 4 |
 
-Y = completed alone, A = completed with assist, N = did not complete
-
-### Themes
-
-[3 to 5 themes, each with a heading, a short description, a quote callout, and the mental model mismatch.]
+5 of 6 tasks were completed without help. The novice spent 35 minutes on the first two tasks, compared with 15 for the experienced student.
 
 > **Callout: In their words**
-> "[quote]" (P1)
-> "[quote]" (P2)
+> "Where do i see the time for the class" (P1)
+> "Why do i have to click so many buttons" (P1)
+> "I had to switch to the computer because it was just to much trying to do it on my phone" (P1)
+
+### Theme 1: "Where do I see the time?" Class details are hard to read
+
+The novice couldn't find meeting times on her own and needed help, the only assisted task in the study. Even the experienced student named this task the hardest because it "takes longer to find a class that works with my schedule and with other courses."
+
+*Mental model mismatch:* Students expect class times to be the most visible fact in a result. Instead, days appear as tiny gray letter boxes (S M T W T F S) with one highlighted, packed into a cell with Type and Building text that is often cut off. (Supports HE13, HE06, HE11.)
+
+### Theme 2: "Why do I have to click so many buttons?" Registration is spread across too many tools
+
+Neither participant checked eligibility inside Register for Classes. The novice opened CatTracks in a separate tab and called going back and forth between them the hardest part of the session. The experienced student asks her advisor instead. The novice also couldn't understand why one class takes so many steps, and said she would "merge CatTracks and the registration portal."
+
+*Mental model mismatch:* Students expect one place to find a class, see whether they can take it, and register. The system splits that across Register for Classes, CatTracks, and advisors. (Supports HE14, HE10.)
+
+### Theme 3: Add isn't registering, and students learn that the hard way
+
+The first time the novice registered, she thought clicking Add was all she had to do, and only realized otherwise when she spotted the Submit button. She also hesitated at choosing the "Enrolled" option before submitting. The experienced student knows Add "adds to schedule but doesn't register" and checks the bottom right corner to confirm. That rule is learned through experience, not explained by the interface. (Confirms HE01, HE04, HE08.)
+
+### Theme 4: Experienced students route around the system
+
+The experienced student finished every task quickly and silently, but said she doesn't normally use the registration portal at all. She relies on the Schedule Builder and her advisor, and the one thing she'd change is having to use the portal. Her smooth session reflects workarounds, not a smooth system, and shifts work onto advisors.
+
+### Theme 5: "Too much on my phone"
+
+The novice started on her iPhone and switched to a computer because the page was too much on a small screen. This matches the zoom and reflow failures in the accessibility audit. (Supports HE12, A05.)
+
+### Novice vs. Experienced
+
+| | P1 (novice) | P2 (experienced) |
+| --- | --- | --- |
+| Needed help | Yes, finding class times | No |
+| Understands Add vs. Submit | Learned after a mistake | Yes |
+| Where prerequisites come from | CatTracks, in a separate tab | Advisor |
+| Uses the portal normally | Yes | No, avoids it |
+| Ease rating | 1 | 4 |
 
 ---
 
@@ -150,6 +180,14 @@ Weber State doesn't drop students for nonpayment or nonattendance. That warning 
 **HE12: Zooming in hides content and the Add button** (H7 Flexibility and efficiency of use)
 At 200% zoom the results table header and many values are clipped. At 400%, seat counts can't be read and the Add button is cut off.
 *Recommendation:* Use a layout that stacks on narrow screens.
+
+**HE13: Class times are the hardest thing to read** (H8 Aesthetic and minimalist design, H2 Match between system and real world)
+Meeting days are shown as tiny gray letter boxes with one highlighted, mixed into a cell with Type and Building text that is often cut off. This was found in the user sessions: the novice needed help to find times, and the experienced student called it the hardest task.
+*Recommendation:* Show days and times in plain text ("Tue/Thu 2:00 to 2:50 PM") in their own column, and add a filter by time of day.
+
+**HE14: Prerequisites aren't on the registration page** (H6 Recognition rather than recall, H7 Flexibility and efficiency of use)
+Students must open CatTracks in a separate tab or ask an advisor to know whether they can take a class, then carry that information back. Also found in the user sessions.
+*Recommendation:* Show prerequisites, and whether the student has met them, on each result.
 
 ### Minor Issues (Severity 2)
 
@@ -238,18 +276,20 @@ The page sets a language and uses `<header>`, a labeled breadcrumb `<nav>`, and 
 
 ## 7. Prioritized Issues
 
-Issues confirmed by more than one method are listed first. [After the sessions, add "Sessions" to the Source column wherever a participant ran into the issue.]
+Issues confirmed by more than one method are listed first.
 
 | Priority | Issue | Source | Severity | Fix |
 | --- | --- | --- | --- | --- |
-| 1 | Keyboard users can't reach Add buttons, with no focus indicator | Accessibility (A01, A02) | 4 | Real focusable buttons with a thick focus outline |
-| 2 | Add looks like registering, but nothing is registered until Submit | Heuristic (HE01, HE04, HE11) [+ Sessions?] | 3 | "Pending" label and a button that says "Register for 2 classes" |
-| 3 | Full class error doesn't explain the problem or next step | Heuristic (HE02) + Accessibility (A08) | 3 | Name the cause and next step; announce with `aria-live` |
-| 4 | Content and Add button clipped when zoomed | Heuristic (HE12) + Accessibility (A05) | 3 | Responsive layout, 16 px text |
-| 5 | Search results page: 19 broken ARIA references, 89 contrast errors | Accessibility (A09, A10) | 3 | Fix ARIA IDs, raise contrast to 4.5:1 |
-| 6 | Tuition and drop warning buried in legal text | Heuristic (HE03) | 3 | Plain warning next to Submit |
-| 7 | Waitlist noise and unexplained jargon in results | Heuristic (HE05, HE07) [+ Sessions?] | 2 | Plain seat status, plain labels |
-| 8 | Hidden drop control, no form hints, unlabeled panes | Heuristic (HE08, HE09) + Accessibility (A06, A07) | 2 | Visible Drop button, hints, labeled sections |
+| 1 | Add looks like registering, but nothing is registered until Submit | Sessions (P1, P2) + Heuristic (HE01, HE04, HE08, HE11) | 3 | "Pending" label and a button that says "Register for 2 classes" |
+| 2 | Class times are hard to find and read | Sessions (P1, P2) + Heuristic (HE13, HE06, HE11) | 3 | Plain text days and times, time of day filter |
+| 3 | Keyboard users can't reach Add buttons, with no focus indicator | Accessibility (A01, A02) | 4 | Real focusable buttons with a thick focus outline |
+| 4 | Page clipped on phones and when zoomed | Sessions (P1) + Heuristic (HE12) + Accessibility (A05) | 3 | Responsive layout, 16 px text |
+| 5 | Prerequisites require CatTracks or an advisor | Sessions (P1, P2) + Heuristic (HE14, HE10) | 3 | Show prerequisites and status on each result |
+| 6 | Full class error doesn't explain the problem or next step | Heuristic (HE02) + Accessibility (A08) | 3 | Name the cause and next step; announce with `aria-live` |
+| 7 | Search results page: 19 broken ARIA references, 89 contrast errors | Accessibility (A09, A10) | 3 | Fix ARIA IDs, raise contrast to 4.5:1 |
+| 8 | Tuition and drop warning buried in legal text | Heuristic (HE03) | 3 | Plain warning next to Submit |
+| 9 | Waitlist noise and unexplained jargon in results | Heuristic (HE05, HE07) | 2 | Plain seat status, plain labels |
+| 10 | Hidden drop control, no form hints, unlabeled panes | Heuristic (HE08, HE09) + Accessibility (A06, A07) | 2 | Visible Drop button, hints, labeled sections |
 
 ---
 
@@ -259,11 +299,11 @@ Issues confirmed by more than one method are listed first. [After the sessions, 
 
 ### Question 1: How did combining qualitative user observations with an expert heuristic evaluation reveal usability flaws that a developer testing their own code would likely overlook?
 
-A developer testing their own code already knows what every button does. They know Add only stages a class and Submit is what registers it, they know what a CRN is, and they know where the drop control is hidden. Because they built the mental model, they can't experience the gap between what the screen shows and what a student expects. [Describe one moment from the sessions, for example: "P1 clicked Add and said '...', assuming she was registered."] Watching someone without that knowledge made the gap visible in a way that reading the code never would.
+A developer testing their own code already knows what every button does. They know Add only stages a class and Submit is what registers it, they know what a CRN is, and they know where the drop control is hidden. Because they built the mental model, they can't experience the gap between what the screen shows and what a student expects. The clearest moment was when my novice participant, trying to pick a section, asked "Where do i see the time for the class." To anyone who built the page, the highlighted day boxes in the Meeting Times column are obvious. To her, the most important fact on the screen was invisible, and she needed help to find it. Watching someone without that knowledge made the gap visible in a way that reading the code never would.
 
-The heuristic evaluation caught a different set of problems: the ones users work around without saying anything. [Example: "P2 scrolled past the waitlist line without comment, but the evaluation flagged it as noise that slows every decision (HE05)."] Experienced users blame themselves or quietly adapt, so their sessions can look smooth while the interface is still costing them time. Going screen by screen against the heuristics, and testing with a keyboard, zoom, and WAVE, exposed issues no participant would think to mention, like the Add buttons being unreachable by keyboard.
+The heuristic evaluation caught a different set of problems: the ones users work around without saying anything. My experienced participant was silent and finished every task without trouble, but she also told me she normally avoids the portal and uses the Schedule Builder and her advisor instead. Her session looked smooth only because she had learned to route around the system. Experienced users blame themselves or quietly adapt, so their sessions can look smooth while the interface is still costing them time. Going screen by screen against the heuristics, and testing with a keyboard, zoom, and WAVE, exposed issues no participant would think to mention, like the Add buttons being unreachable by keyboard.
 
-Each method also confirmed the other. [Name the issue both methods found, for example the Add versus Submit split.] Seeing the same problem from a real user and from a structured review gave me much more confidence that it was a real priority and not just my opinion.
+Each method also confirmed the other. The Add versus Submit split was my top heuristic finding, and the sessions backed it up: my novice participant said that the first time she registered, she thought clicking Add was all she had to do. At the same time, the sessions surfaced two major problems my heuristic review had underrated, unreadable class times and prerequisites that live in a different system. Seeing the same problem from a real user and from a structured review gave me much more confidence that it was a real priority and not just my opinion.
 
 ### Question 2: Identify one heuristic violation that directly creates a legal or ethical accessibility barrier under WCAG 2.1 AA, and explain how resolving that violation improves the user experience for both disabled users and the general public.
 

@@ -48,7 +48,7 @@ Registration is a high stakes, time sensitive task, yet the interface asks stude
 
 This statement will be validated or revised using the data gathered in this phase:
 
-* Task completion rate and time on task from 2 observed user sessions: [fill in after sessions]
-* Direct user quotes and observed breakdown points: [fill in after sessions]
-* Heuristic violations with severity ratings: 12 issues logged, 4 rated severity 3 (major), led by the Add then Submit split and a full class error that never says the class is full
+* Task completion: 5 of 6 tasks completed without help. The novice needed help finding class times and took 35 minutes on the first two tasks versus 15 for the experienced student. Ease ratings were 1 (novice) and 4 (experienced) out of 5.
+* Quotes and breakdowns: "Where do i see the time for the class" and "Why do i have to click so many buttons" (novice); the experienced student avoids the portal entirely, using the Schedule Builder and her advisor.
+* Heuristic violations with severity ratings: 14 issues logged, 6 rated severity 3 (major), led by the Add then Submit split and a full class error that never says the class is full
 * WCAG 2.1 AA failures: 12 issues logged, and WAVE rates the search results page 2.5 out of 10 (23 errors, 89 contrast errors); the flow fails AA because a keyboard only user cannot reach the Add buttons (SC 2.1.1), plus contrast as low as 1.07:1 and clipped content at 200% and 400% zoom

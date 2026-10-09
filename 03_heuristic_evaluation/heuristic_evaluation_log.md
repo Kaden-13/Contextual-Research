@@ -56,6 +56,8 @@ Severity considers how often the problem happens, how hard it is to overcome, an
 | HE10 | S5, S7 | H6 Recognition rather than recall | Students have to keep track of CRNs, which classes are pending versus registered, and late add approvals that happen outside the page (instructor or department Special Approval after the sixth business day). | Walkthrough; Weber State registrar's Register for Classes page | 2 | Keep pending and registered classes visibly separate, and link to the approval process from the page. |
 | HE11 | S4 to S7 | H8 Aesthetic and minimalist design | The action happens at the top (Add), the result shows at the bottom (Schedule and Summary), and the final step (Submit) is in the far bottom right. Confirming one action means scanning three areas, all in very small 10 to 12 px text. | Walkthrough; font sizes checked in DevTools | 2 | Show confirmation next to the Add button, and raise body text to 16 px. |
 | HE12 | S5, S7 | H7 Flexibility and efficiency of use | At 200% zoom the table header row and many values are clipped. At 400% zoom seat counts can't be read and the Add button is cut off, so anyone who zooms in can't finish the task. | Browser zoom tests at 200% and 400% | 3 | Use a layout that stacks on narrow screens. (Also logged as accessibility finding A05.) |
+| HE13 | S5 | H8 Aesthetic and minimalist design, H2 Match between system and real world | Meeting days are shown as tiny gray letter boxes (S M T W T F S) with one highlighted, packed into a cell with Type and Building text that is often cut off. Times are the main fact students need, and they're the hardest to read. | User sessions: P1 needed help to find class times ("Where do i see the time for the class"); P2 named this task the hardest | 3 | Show days and times in plain text ("Tue/Thu 2:00 to 2:50 PM") in their own column, and add a filter by time of day. |
+| HE14 | S5, S6 | H6 Recognition rather than recall, H7 Flexibility and efficiency of use | Prerequisites and degree requirements aren't shown in Register for Classes. Students have to open CatTracks in a separate tab or ask an advisor, then carry that information back. | User sessions: P1 used CatTracks in another tab and called it "a chore"; P2 asks her advisor | 3 | Show prerequisites and whether the student has met them on each result, or link CatTracks inline. |
 
 ## What Works
 
@@ -72,20 +74,26 @@ These parts of the interface support the user and should be kept:
 | Heuristic | Issues found | Highest severity |
 | --- | --- | --- |
 | H1 Visibility of system status | 2 (HE01, HE04) | 3 |
-| H2 Match between system and real world | 1 (HE07) | 2 |
+| H2 Match between system and real world | 2 (HE07, HE13) | 3 |
 | H3 User control and freedom | 0 | n/a |
 | H4 Consistency and standards | 1 (HE08) | 2 |
 | H5 Error prevention | 2 (HE01, HE03) | 3 |
-| H6 Recognition rather than recall | 2 (HE08, HE10) | 2 |
-| H7 Flexibility and efficiency of use | 1 (HE12) | 3 |
-| H8 Aesthetic and minimalist design | 3 (HE05, HE06, HE11) | 2 |
+| H6 Recognition rather than recall | 3 (HE08, HE10, HE14) | 3 |
+| H7 Flexibility and efficiency of use | 2 (HE12, HE14) | 3 |
+| H8 Aesthetic and minimalist design | 4 (HE05, HE06, HE11, HE13) | 3 |
 | H9 Error recognition and recovery | 2 (HE02, HE04) | 3 |
 | H10 Help and documentation | 1 (HE09) | 2 |
 
-**Top issues by severity:**
+**Top issues by severity (14 issues total, 6 rated severity 3):**
 1. **HE01:** The Add then Submit split makes students think they're registered when they aren't.
 2. **HE02:** The full class error never says the class is full or what to do next.
 3. **HE03:** The no automatic drop tuition warning is far from the action that triggers it.
 4. **HE12:** Content and the Add button are clipped when zoomed.
+5. **HE13:** Class times are the hardest thing to read in the results (found in user sessions).
+6. **HE14:** Prerequisites live in CatTracks or with an advisor, not in the registration page (found in user sessions).
 
-**Issues that also showed up in user sessions:** [fill in after sessions]
+**Issues that also showed up in user sessions:**
+* **HE01:** P1 thought Add was all she had to click on her first registration; P2 checks the bottom right corner to confirm.
+* **HE08:** P1 hesitated at choosing the "Enrolled" option before Submit.
+* **HE12:** P1 switched from her phone to a computer because the page was "too much" on a phone.
+* **HE13 and HE14** were found only through the sessions.
