@@ -317,19 +317,3 @@ The clearest example is the full class error (HE02), which violates Nielsen's ni
 For a screen reader user, this is more than an annoyance. Combined with the missing live region announcements and broken ARIA references on the results page, they may not even notice an error appeared, let alone figure out why. A student with a cognitive disability may not be able to work out the cause on their own. Because Weber State is a public university covered by the ADA and Section 504, a registration process that some students can't complete independently is a legal risk, and ethically, it means those students depend on someone else to do something every other student does alone.
 
 Fixing it helps everyone. An error that says "This section is full. Join the waitlist or choose another section," announced with an `aria-live` region, tells a screen reader user exactly what happened, but it also saves every student from guessing, retrying, or emailing an advisor. Better yet, showing seat status in plain words before the student clicks prevents the error entirely. That's the pattern I saw across this audit: changes made for accessibility, like clear messages, visible focus, and layouts that reflow when zoomed, end up making the system faster and less stressful for all students.
-
----
-
-## Formatting Checklist for the PDF
-
-The assignment requires the PDF itself to be accessible.
-
-* [ ] Real heading styles (Heading 1, 2, 3), not just bold text
-* [ ] Body text at least 11pt, dark text on a light background
-* [ ] Callout boxes meet 4.5:1 contrast (for example, dark text on a pale blue box)
-* [ ] Every screenshot has alt text (provided above)
-* [ ] Screenshot markers use numbers, not just color
-* [ ] Tables have header rows marked as headers
-* [ ] Document title and language set in file properties
-* [ ] Exported as a tagged PDF (Word: File, Save As, PDF, Options, check "Document structure tags for accessibility")
-* [ ] GitHub repository link included and the repo is shared with the instructor
