@@ -1,0 +1,21 @@
+card_id,card_label,phase1_source
+C01,Search for a class by subject or course number,Task T1; HE09
+C02,Compare sections of the same class,Task T2; HE06
+C03,See what days and times a class meets,Theme 1; HE13
+C04,Check how many seats are open,HE05
+C05,Join a waitlist for a full class,HE02; HE05
+C06,Check if I meet the prerequisites,Theme 2; HE14
+C07,See my progress toward my degree,Theme 2 (CatTracks)
+C08,Add a class to my list,Theme 3; HE01
+C09,Submit my registration,Theme 3; HE01; HE04
+C10,Drop a class,HE08
+C11,See my weekly schedule,What Works (calendar)
+C12,See which classes I'm actually registered for,HE01; HE10
+C13,Find out if two classes overlap,What Works (Time Conflict warning)
+C14,Choose a semester,Registration flow (term selection)
+C15,Read the tuition and drop rules,HE03
+C16,Check for holds on my account,Registration flow (home)
+C17,Find out when I'm allowed to register,Registration flow (home)
+C18,Pay tuition or see what I owe,HE03; Weber State drop policy
+C19,Get in touch with my advisor,Theme 4
+C20,Look up what a term means (like CRN),HE07

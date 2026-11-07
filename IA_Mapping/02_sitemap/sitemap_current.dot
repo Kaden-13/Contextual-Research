@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=LR, fontname="Inter", fontsize=22, labelloc=t, nodesep=0.22, ranksep=0.55, pad=0.35, bgcolor="white", splines=ortho];
+  node  [fontname="Inter", fontsize=12, shape=box, style=filled, fillcolor="white", color="#1a1a1a", penwidth=1.4, margin="0.16,0.07"];
+  edge  [color="#1a1a1a", penwidth=1.2, arrowsize=0.7, fontname="Inter", fontsize=10];
+  label="Current IA: Weber State class registration (from Phase 1 audit)\nDeepest path to a section detail: 7 levels\n ";
+  portal [label="eWeber portal home\n(app tiles)", fillcolor="#1a1a1a", fontcolor="white"];
+  reghome [label="Registration home\nL1", fillcolor="#DCE9F7", fontcolor="#1a1a1a"];
+  sem [label="Select the Semester\n+ tuition agreement\n(drop rule buried here) L2", fillcolor="white", fontcolor="#1a1a1a"];
+  term [label="Term selection\nL3", fillcolor="white", fontcolor="#1a1a1a"];
+  rfc [label="Register for Classes\n(one page, 3 panes) L4", fillcolor="white", fontcolor="#1a1a1a"];
+  find [label="Find Classes pane\nsearch form L5", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  res [label="Search results\n(codes, gray day boxes) L6", peripheries=2];
+  det [label="Section details\nmeeting times, seats, waitlist L7", peripheries=2];
+  sch [label="Schedule pane\n(weekly calendar)", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  sum [label="Summary pane\nAdd = pending only\nAction dropdown to drop\nSubmit in far corner", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  sb [label="Registration\nSchedule Builder\n(separate app)", style="dashed,filled", fillcolor="#FFF4CC"];
+  ct [label="CatTracks\ndegree progress and\nprerequisites (separate app)", style="dashed,filled", fillcolor="#FFF4CC"];
+  pay [label="Tuition and payment\n(separate from registration)", style="dashed,filled", fillcolor="#FFF4CC"];
+  adv [label="Advisor\n(outside the system)", style="dashed,filled", fillcolor="#FFF4CC"];
+  portal -> reghome;
+  reghome -> sem;
+  sem -> term;
+  term -> rfc;
+  rfc -> find;
+  find -> res;
+  res -> det;
+  rfc -> sch;
+  rfc -> sum;
+  portal -> sb;
+  portal -> ct;
+  portal -> pay;
+  det -> ct [style=dotted, constraint=false, color="#555555", label="student opens new tab to check prereqs"];
+  det -> adv [style=dotted, constraint=false, color="#555555"];
+}

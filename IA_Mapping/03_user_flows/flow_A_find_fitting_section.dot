@@ -1,0 +1,42 @@
+digraph G {
+  graph [rankdir=TB, fontname="Inter", fontsize=20, labelloc=t, nodesep=0.45, ranksep=0.45, pad=0.3, bgcolor="white"];
+  node  [fontname="Inter", fontsize=12, color="#1a1a1a", penwidth=1.4, margin="0.18,0.08"];
+  edge  [fontname="Inter", fontsize=11, color="#1a1a1a", penwidth=1.2, arrowsize=0.8];
+  label="Flow A: Find a section that fits my schedule\n ";
+  s [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Student wants a class\nthat fits around work"];
+  w1 [shape=box, style=filled, fillcolor="#DCE9F7", label="W1 Registration Home"];
+  w2 [shape=box, style=filled, fillcolor="#DCE9F7", label="W2 Find Classes\nEnter subject, pick time of day\nand days filters"];
+  r1 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Results list sections with days and\ntimes in plain text, open seats,\nprerequisite status, conflict flags.\nStatus message announces count."];
+  d1 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Any section\nfit my times?", margin="0.05,0.05"];
+  r2 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="No results message suggests\nwidening the time filter"];
+  d2 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Conflict flag\non section?", margin="0.05,0.05"];
+  w3 [shape=box, style=filled, fillcolor="#DCE9F7", label="W3 Section details\n(Details expanded inline)"];
+  d3 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Seats open?", margin="0.05,0.05"];
+  r3 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Added to My Schedule as\nPending, not registered yet.\nSidebar calendar updates."];
+  d4 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Add another\nclass?", margin="0.05,0.05"];
+  end [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Go to Flow B:\nreview and register"];
+  wl [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Join waitlist\n(Flow B, step W5)"];
+  s -> w1;
+  w1 -> w2 [label=" Find Classes in global nav "];
+  w2 -> r1 [label=" Search "];
+  r1 -> d1;
+  d1 -> r2 [label=" No "];
+  r2 -> w2 [label=" Change filters "];
+  d1 -> d2 [label=" Yes "];
+  d2 -> r1 [label=" Yes, pick another "];
+  d2 -> w3 [label=" No "];
+  w3 -> d3;
+  d3 -> wl [label=" No "];
+  d3 -> r3 [label=" Yes, Add to my schedule "];
+  r3 -> d4;
+  d4 -> w2 [label=" Yes "];
+  d4 -> end [label=" No, Review and register "];
+  subgraph cluster_legend {
+    label="Key"; fontsize=12; style=rounded; color="#888888";
+    k1 [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Start / End", fontsize=10];
+    k2 [shape=box, style=filled, fillcolor="#DCE9F7", label="Screen (wireframe ID)", fontsize=10];
+    k3 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Decision", fontsize=10, margin="0.02,0.02"];
+    k4 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="System response", fontsize=10];
+    k1 -> k2 -> k3 -> k4 [style=invis];
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Schedule | Spring 2027 Registration | Weber State</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site">
+  <div class="logo" aria-hidden="true">LOGO</div>
+  <a class="site-title" href="home.html">Weber State Registration</a>
+  <button class="term-switch" aria-haspopup="listbox" aria-expanded="false">Spring 2027 &#9662;</button>
+  <nav class="utility" aria-label="Utility"><ul><li><a href="#">Help and Glossary</a></li><li><a href="#">Contact My Advisor</a></li><li><a href="#">Sign Out</a></li></ul></nav>
+</header>
+<nav class="primary" aria-label="Primary"><ul><li><a href="home.html">Registration Home</a></li><li><a href="find.html">Find Classes</a></li><li><a href="schedule.html" aria-current="page">My Schedule <span class="badge" aria-hidden="true">2</span><span class="sr-only"> (2 pending)</span></a></li><li><a href="degree.html">My Degree</a></li><li><a href="money.html">Finances</a></li></ul></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="home.html">Registration Home</a></li><li><a href="schedule.html" aria-current="page">My Schedule</a></li></ol></nav>
+<div class="layout">
+<main id="main" tabindex="-1">
+
+<h1>My Schedule: review and register</h1>
+<section aria-labelledby="h-pend" class="card">
+  <h2 id="h-pend">Pending: not registered yet (2)</h2>
+  <table><caption class="muted" style="text-align:left;padding-bottom:6px">These classes are saved but you do not have a seat yet.</caption>
+    <thead><tr><th scope="col">Class</th><th scope="col">Days and times</th><th scope="col">Seats</th><th scope="col">Action</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">CS 2420 Data Structures, Section 001</th><td>Tue/Thu 9:00 to 10:20 AM</td><td>12 open</td><td><button aria-label="Remove CS 2420 from pending">Remove</button></td></tr>
+      <tr><th scope="row">MATH 1210 Calculus I, Section 002</th><td>Mon/Wed 1:30 to 2:20 PM</td><td>1 open</td><td><button aria-label="Remove MATH 1210 from pending">Remove</button></td></tr>
+    </tbody></table>
+  <div class="notice" id="drop-rule"><strong>Drop rule:</strong> Weber State does not drop you for not paying or not attending. You will be charged for every class you are registered in until you drop it.</div>
+  <div class="row"><button class="primary" aria-describedby="drop-rule">Register for 2 classes</button><a href="find.html">Add another class</a></div>
+</section>
+<section aria-labelledby="h-reg" class="card">
+  <h2 id="h-reg">Registered (1)</h2>
+  <table><thead><tr><th scope="col">Class</th><th scope="col">Days and times</th><th scope="col">Action</th></tr></thead>
+    <tbody><tr><th scope="row">ENGL 2010 Intermediate Writing, Section 601</th><td>Online</td><td><button aria-label="Drop ENGL 2010">Drop</button></td></tr></tbody></table>
+</section>
+<section aria-labelledby="h-week" class="card">
+  <h2 id="h-week">Week view</h2>
+  <table class="cal"><caption class="muted" style="text-align:left;padding-bottom:6px">Striped = pending, solid = registered</caption>
+    <thead><tr><th scope="col">Time</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">9 AM</th><td></td><td class="pend">CS 2420</td><td></td><td class="pend">CS 2420</td><td></td></tr>
+      <tr><th scope="row">10 AM</th><td></td><td class="pend">CS 2420</td><td></td><td class="pend">CS 2420</td><td></td></tr>
+      <tr><th scope="row">1 PM</th><td class="pend">MATH 1210</td><td></td><td class="pend">MATH 1210</td><td></td><td></td></tr>
+      <tr><th scope="row">2 PM</th><td class="pend">MATH 1210</td><td></td><td class="pend">MATH 1210</td><td></td><td></td></tr>
+    </tbody></table>
+  <p class="muted" style="margin:8px 0 0">Online classes: ENGL 2010 (registered)</p>
+</section>
+
+</main>
+
+</div>
+<footer class="site"><span>Weber State University Registrar</span><a href="#">Accessibility</a><a href="#">Registration deadlines</a><a href="#">Contact the Registrar</a></footer>
+<script src="annotate.js"></script>
+</body>
+</html>

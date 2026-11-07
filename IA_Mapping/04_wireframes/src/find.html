@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find Classes | Spring 2027 Registration | Weber State</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site">
+  <div class="logo" aria-hidden="true">LOGO</div>
+  <a class="site-title" href="home.html">Weber State Registration</a>
+  <button class="term-switch" aria-haspopup="listbox" aria-expanded="false">Spring 2027 &#9662;</button>
+  <nav class="utility" aria-label="Utility"><ul><li><a href="#">Help and Glossary</a></li><li><a href="#">Contact My Advisor</a></li><li><a href="#">Sign Out</a></li></ul></nav>
+</header>
+<nav class="primary" aria-label="Primary"><ul><li><a href="home.html">Registration Home</a></li><li><a href="find.html" aria-current="page">Find Classes</a></li><li><a href="schedule.html">My Schedule <span class="badge" aria-hidden="true">2</span><span class="sr-only"> (2 pending)</span></a></li><li><a href="degree.html">My Degree</a></li><li><a href="money.html">Finances</a></li></ul></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="home.html">Registration Home</a></li><li><a href="find.html" aria-current="page">Find Classes</a></li></ol></nav>
+<div class="layout">
+<main id="main" tabindex="-1">
+
+<h1>Find Classes</h1>
+
+<form role="search" aria-label="Class search" class="card">
+  <div class="form-grid">
+    <div><label for="subj">Subject</label><select id="subj"><option>Computer Science (CS)</option></select></div>
+    <div><label for="num">Course number</label><input id="num" type="text" value="2420" aria-describedby="num-hint"><p class="hint" id="num-hint">For example 2420</p></div>
+    <fieldset><legend>Time of day</legend>
+      <span class="opt"><input type="checkbox" id="t1" checked><label for="t1">Morning</label></span>
+      <span class="opt"><input type="checkbox" id="t2"><label for="t2">Afternoon</label></span>
+      <span class="opt"><input type="checkbox" id="t3" checked><label for="t3">Evening</label></span></fieldset>
+    <fieldset><legend>Show</legend>
+      <span class="opt"><input type="checkbox" id="open" checked><label for="open">Only open sections</label></span></fieldset>
+  </div>
+  <div class="row" style="margin-top:12px"><button class="primary" type="submit">Search</button><a href="#">More filters (days, campus, online)</a></div>
+</form>
+<section aria-labelledby="res-h">
+  <h2 id="res-h">CS 2420 Data Structures</h2>
+  <p role="status" aria-live="polite" class="muted">3 sections found</p>
+
+  <article class="card" aria-labelledby="s1-title">
+    <h3 id="s1-title">Section 001</h3>
+    <dl class="facts">
+      <dt>Days and times</dt><dt>Where</dt><dt>Seats</dt><dt>Prerequisites</dt>
+      <dd><strong>Tue/Thu 9:00 to 10:20 AM</strong></dd><dd>Ogden campus, Noorda Engineering 301</dd><dd>12 of 30 open</dd><dd>CS 1410: Met &#10003;</dd>
+    </dl>
+    <div class="row"><button class="primary">Add to my schedule<span class="sr-only">: CS 2420 Section 001</span></button>
+      <button aria-expanded="false" aria-controls="det-001">Details<span class="sr-only"> for Section 001</span></button></div>
+    <div id="det-001" hidden></div>
+  </article>
+
+  <article class="card" aria-labelledby="s2-title">
+    <h3 id="s2-title">Section 002 <span class="flag warn" id="s2-conf">Time conflict with MATH 1210</span></h3>
+    <dl class="facts">
+      <dt>Days and times</dt><dt>Where</dt><dt>Seats</dt><dt>Prerequisites</dt>
+      <dd><strong>Mon/Wed 1:30 to 2:50 PM</strong></dd><dd>Ogden campus, Noorda Engineering 210</dd><dd>4 of 30 open</dd><dd>CS 1410: Met &#10003;</dd>
+    </dl>
+    <div class="row"><button aria-describedby="s2-conf">Add to my schedule<span class="sr-only">: CS 2420 Section 002</span></button><button aria-expanded="false" aria-controls="det-002">Details<span class="sr-only"> for Section 002</span></button></div><div id="det-002" hidden></div>
+  </article>
+
+  <article class="card" aria-labelledby="s3-title">
+    <h3 id="s3-title">Section 601 <span class="flag">Full</span></h3>
+    <dl class="facts">
+      <dt>Days and times</dt><dt>Where</dt><dt>Seats</dt><dt>Prerequisites</dt>
+      <dd><strong>Online, no set meeting time</strong></dd><dd>Online</dd><dd>0 of 40 open, 3 on waitlist</dd><dd>CS 1410: Met &#10003;</dd>
+    </dl>
+    <div class="row"><button>Join waitlist<span class="sr-only">: CS 2420 Section 601</span></button><button aria-expanded="false" aria-controls="det-601">Details<span class="sr-only"> for Section 601</span></button></div><div id="det-601" hidden></div>
+  </article>
+</section>
+</main>
+<aside aria-labelledby="aside-h">
+<h2 id="aside-h">My Schedule</h2>
+<p class="muted" style="margin:0 0 8px">2 pending, not registered yet</p>
+<ul class="plain">
+  <li><strong>CS 2420</strong> Tue/Thu 9:00 to 10:20 AM <span class="flag">Pending</span></li>
+  <li><strong>MATH 1210</strong> Mon/Wed 1:30 to 2:20 PM <span class="flag">Pending</span></li>
+  <li><strong>ENGL 2010</strong> Online <span class="flag">Registered</span></li>
+</ul>
+<p style="margin:12px 0 4px"><strong>10 credit hours</strong> (limit 20)</p>
+<a class="btn primary" href="schedule.html" style="margin-top:8px">Review and register (2)</a>
+</aside>
+</div>
+<footer class="site"><span>Weber State University Registrar</span><a href="#">Accessibility</a><a href="#">Registration deadlines</a><a href="#">Contact the Registrar</a></footer>
+<script src="annotate.js"></script>
+</body>
+</html>

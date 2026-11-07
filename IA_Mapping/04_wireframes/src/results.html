@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration Results | Spring 2027 Registration | Weber State</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site">
+  <div class="logo" aria-hidden="true">LOGO</div>
+  <a class="site-title" href="home.html">Weber State Registration</a>
+  <button class="term-switch" aria-haspopup="listbox" aria-expanded="false">Spring 2027 &#9662;</button>
+  <nav class="utility" aria-label="Utility"><ul><li><a href="#">Help and Glossary</a></li><li><a href="#">Contact My Advisor</a></li><li><a href="#">Sign Out</a></li></ul></nav>
+</header>
+<nav class="primary" aria-label="Primary"><ul><li><a href="home.html">Registration Home</a></li><li><a href="find.html">Find Classes</a></li><li><a href="schedule.html" aria-current="page">My Schedule <span class="badge" aria-hidden="true">2</span><span class="sr-only"> (2 pending)</span></a></li><li><a href="degree.html">My Degree</a></li><li><a href="money.html">Finances</a></li></ul></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="home.html">Registration Home</a></li><li><a href="schedule.html">My Schedule</a></li><li><a href="results.html" aria-current="page">Results</a></li></ol></nav>
+<div class="layout">
+<main id="main" tabindex="-1">
+
+<h1 tabindex="-1">Registration results</h1>
+<div class="status" role="alert">1 of 2 classes registered. 1 class needs your attention.</div>
+<section aria-labelledby="h-ok" class="card">
+  <h2 id="h-ok">Registered</h2>
+  <p><strong>CS 2420 Data Structures, Section 001</strong>, Tue/Thu 9:00 to 10:20 AM <span class="flag">Registered</span></p>
+</section>
+<section aria-labelledby="h-fail" class="card">
+  <h2 id="h-fail">Not registered</h2>
+  <p><strong>MATH 1210 Calculus I, Section 002</strong>: <span id="full-msg">This section filled up before you registered. You can join the waitlist (you would be number 4) or choose another section.</span></p>
+  <div class="row"><button class="primary" aria-describedby="full-msg">Join waitlist for MATH 1210</button><a class="btn" href="find.html">See other MATH 1210 sections</a></div>
+</section>
+<p><a href="schedule.html">Back to My Schedule</a></p>
+
+</main>
+
+</div>
+<footer class="site"><span>Weber State University Registrar</span><a href="#">Accessibility</a><a href="#">Registration deadlines</a><a href="#">Contact the Registrar</a></footer>
+<script src="annotate.js"></script>
+</body>
+</html>

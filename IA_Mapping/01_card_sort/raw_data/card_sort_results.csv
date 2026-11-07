@@ -1,0 +1,61 @@
+participant_id,card_id,group_label
+P1,C01,Course Search & Exploration
+P1,C02,Course Search & Exploration
+P1,C03,Course Search & Exploration
+P1,C04,Course Search & Exploration
+P1,C05,Enrollment & Registration
+P1,C06,Degree Planning & Requirements
+P1,C07,Degree Planning & Requirements
+P1,C08,Enrollment & Registration
+P1,C09,Enrollment & Registration
+P1,C10,Schedule Management
+P1,C11,Schedule Management
+P1,C12,Registration & Account Information
+P1,C13,Schedule Management
+P1,C14,Registration & Account Information
+P1,C15,Policies & Finances
+P1,C16,Registration & Account Information
+P1,C17,Registration & Account Information
+P1,C18,Policies & Finances
+P1,C19,Advising & Support
+P1,C20,Advising & Support
+P2,C01,register
+P2,C02,schedule
+P2,C03,schedule
+P2,C04,register
+P2,C05,register
+P2,C06,degree
+P2,C07,degree
+P2,C08,register
+P2,C09,register
+P2,C10,register
+P2,C11,schedule
+P2,C12,register
+P2,C13,schedule
+P2,C14,schedule
+P2,C15,finances
+P2,C16,finances
+P2,C17,register
+P2,C18,finances
+P2,C19,register
+P2,C20,register
+P3,C01,Find Classes
+P3,C02,Find Classes
+P3,C03,My Schedule
+P3,C04,Find Classes
+P3,C05,Find Classes
+P3,C06,My Degree
+P3,C07,My Degree
+P3,C08,Register
+P3,C09,Register
+P3,C10,Register
+P3,C11,My Schedule
+P3,C12,My Schedule
+P3,C13,My Schedule
+P3,C14,Register
+P3,C15,Finances
+P3,C16,Finances
+P3,C17,Register
+P3,C18,Finances
+P3,C19,Help
+P3,C20,Help

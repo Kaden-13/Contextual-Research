@@ -1,0 +1,51 @@
+digraph G {
+  graph [rankdir=TB, fontname="Inter", fontsize=22, labelloc=t, nodesep=0.22, ranksep=0.5, pad=0.35, bgcolor="white", splines=spline];
+  node  [fontname="Inter", fontsize=12, shape=box, style=filled, fillcolor="white", color="#1a1a1a", penwidth=1.4, margin="0.16,0.07"];
+  edge  [color="#1a1a1a", penwidth=1.2, arrowsize=0.7, fontname="Inter", fontsize=10];
+  label="Revised IA: Weber State class registration\nEvery task is at most 2 levels from Registration Home\n ";
+  home [label="Registration Home\nL0", fillcolor="#1a1a1a", fontcolor="white"];
+  subgraph cluster_global { label="Global navigation (every page)"; fontsize=13; style="rounded,dashed"; color="#7A1FA2";
+    hdr [label="Header bar: logo/home link,\nsemester switcher [C14]", style="rounded,filled", fillcolor="#F3E5F5", fontsize=11];
+    u1 [label="Utility nav: Help and Glossary [C20]", style="rounded,filled", fillcolor="#F3E5F5", fontsize=11];
+    u2 [label="Utility nav: Contact My Advisor [C19]", style="rounded,filled", fillcolor="#F3E5F5", fontsize=11];
+    u3 [label="Utility nav: Sign Out", style="rounded,filled", fillcolor="#F3E5F5", fontsize=11];
+    { rank=same; hdr; u1; u2; u3; }
+    hdr -> u1 -> u2 -> u3 [style=invis];
+  }
+  subgraph cluster_home { label="On Registration Home"; fontsize=12; style="rounded"; color="#888888";
+    h1 [label="Registration date [C17]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+    h2 [label="Holds [C16]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+    h3 [label="My classes status\nand next steps", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  }
+  { rank=same; home; h1; h2; h3; }
+  find [label="Find Classes\nL1", fillcolor="#DCE9F7", fontcolor="#1a1a1a"];
+  f1 [label="Search + time/day filters [C01]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  f2 [label="Section results, plain-text times,\nseats, conflicts, prereq status\n[C02 C03 C04 C06 C13]  L2", peripheries=2];
+  f3 [label="Inline details + Add [C08]\nor Join waitlist [C05]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  sched [label="My Schedule\nL1", fillcolor="#DCE9F7", fontcolor="#1a1a1a"];
+  s1 [label="Pending vs Registered [C12]\nDrop button [C10]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  s2 [label="Week view [C11]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  s3 [label="Register for N classes [C09]\nthen Registration results L2", fillcolor="white", fontcolor="#1a1a1a"];
+  deg [label="My Degree\nL1", fillcolor="#DCE9F7", fontcolor="#1a1a1a"];
+  d1 [label="Progress by requirement [C07]\nMissing prerequisites [C06]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  money [label="Finances\nL1", fillcolor="#DCE9F7", fontcolor="#1a1a1a"];
+  m1 [label="What I owe + Pay [C18]\nHolds [C16]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  m2 [label="Tuition and drop rules [C15]", style="rounded,filled", fillcolor="#EEEEEE", fontsize=11];
+  home -> h1 [style=dotted, arrowhead=none]; h1 -> h2 [style=invis]; h2 -> h3 [style=invis];
+  home -> find;
+  home -> sched;
+  home -> deg;
+  home -> money;
+  find -> f1;
+  find -> f2;
+  f2 -> f3;
+  sched -> s1;
+  sched -> s2;
+  sched -> s3;
+  deg -> d1;
+  money -> m1;
+  money -> m2;
+  legend [shape=plaintext, style="", fontsize=11, label="Stacked box = one page per section. Rounded gray = panel on the parent page, not a separate page.\nContextual links (breadcrumbs, Review and register, Find sections, See other sections) are listed in the report."];
+  m2 -> legend [style=invis];
+  u1 -> home [style=invis];
+}

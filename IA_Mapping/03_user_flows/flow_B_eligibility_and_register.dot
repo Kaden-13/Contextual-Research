@@ -1,0 +1,54 @@
+digraph G {
+  graph [rankdir=TB, fontname="Inter", fontsize=20, labelloc=t, nodesep=0.45, ranksep=0.45, pad=0.3, bgcolor="white"];
+  node  [fontname="Inter", fontsize=12, color="#1a1a1a", penwidth=1.4, margin="0.18,0.08"];
+  edge  [fontname="Inter", fontsize=11, color="#1a1a1a", penwidth=1.2, arrowsize=0.8];
+  label="Flow B: Check eligibility, then register and submit\n ";
+  s [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Student has classes\npicked out"];
+  w1 [shape=box, style=filled, fillcolor="#DCE9F7", label="W1 Registration Home"];
+  d0 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Registration\nopen and\nno holds?", margin="0.05,0.05"];
+  r0 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Home shows my registration\ndate and any holds, with\nwho to contact"];
+  e0 [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Come back on\nregistration date"];
+  w2 [shape=box, style=filled, fillcolor="#DCE9F7", label="W2 Find Classes\nresult shows prerequisite status"];
+  d1 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Prerequisites\nmet?", margin="0.05,0.05"];
+  w6 [shape=box, style=filled, fillcolor="#DCE9F7", label="W6 My Degree\nmissing prerequisite highlighted"];
+  d6 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Take the\nprerequisite\ninstead?", margin="0.05,0.05"];
+  e6 [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Contact advisor\n(utility nav)"];
+  r1 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Added as Pending,\nnot registered yet"];
+  w4 [shape=box, style=filled, fillcolor="#DCE9F7", label="W4 My Schedule review\nPending and Registered shown\nseparately, drop rule next to button"];
+  r4 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Button reads\nRegister for 2 classes"];
+  r5 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="System registers each class.\nFocus moves to results heading.\nSummary read as an alert."];
+  d5 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Every class\nregistered?", margin="0.05,0.05"];
+  w5 [shape=box, style=filled, fillcolor="#DCE9F7", label="W5 Registration results"];
+  d7 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Join\nwaitlist?", margin="0.05,0.05"];
+  r7 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="Waitlist position shown\nin My Schedule"];
+  e1 [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Registered.\nSee My Schedule"];
+  s -> w1;
+  w1 -> d0;
+  d0 -> r0 [label=" No "];
+  r0 -> e0;
+  d0 -> w2 [label=" Yes "];
+  w2 -> d1;
+  d1 -> w6 [label=" No, See my degree progress "];
+  w6 -> d6;
+  d6 -> w2 [label=" Yes, Find classes\nfor this requirement "];
+  d6 -> e6 [label=" Unsure "];
+  d1 -> r1 [label=" Yes, Add "];
+  r1 -> w4 [label=" Review and register "];
+  w4 -> r4;
+  r4 -> r5 [label=" Activate button "];
+  r5 -> d5;
+  d5 -> e1 [label=" Yes "];
+  d5 -> w5 [label=" No, a section is full "];
+  w5 -> d7;
+  d7 -> r7 [label=" Yes "];
+  d7 -> w2 [label=" No, choose another section "];
+  r7 -> e1;
+  subgraph cluster_legend {
+    label="Key"; fontsize=12; style=rounded; color="#888888";
+    k1 [shape=oval, style=filled, fillcolor="#1a1a1a", fontcolor="white", label="Start / End", fontsize=10];
+    k2 [shape=box, style=filled, fillcolor="#DCE9F7", label="Screen (wireframe ID)", fontsize=10];
+    k3 [shape=diamond, style=filled, fillcolor="#FFF4CC", label="Decision", fontsize=10, margin="0.02,0.02"];
+    k4 [shape=box, style="rounded,filled,dashed", fillcolor="#EEEEEE", label="System response", fontsize=10];
+    k1 -> k2 -> k3 -> k4 [style=invis];
+  }
+}
