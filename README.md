@@ -20,7 +20,7 @@ This repository is the documentation trail for a Phase 1 usability audit. It hol
 | `screenshots/raw/` | Unedited screenshots captured during evaluation |
 | `screenshots/annotated/` | Screenshots marked up for the report |
 | `05_report/` | Report draft, and final `Phase1_Usability_Audit.pdf` |
-| `experiment_design/` | Lab 04 controlled user study plan: report (`README.md`), research protocol, variable mapping tables, counterbalancing matrix, `data_dictionary.csv`, and data collection sheet |
+| `experiment_design/` | Lab 04 controlled user study plan: report (`README.md` and `Lab04_Experiment_Plan.pdf`), research protocol, variable mapping tables, counterbalancing matrix, `data_dictionary.csv`, and data collection sheet |
 
 ## Method Summary
 

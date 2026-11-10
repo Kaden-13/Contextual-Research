@@ -1,12 +1,12 @@
 # Lab 04: Controlled Empirical User Study Plan
 
-**Project:** Weber State University "Register for Classes" (eWeber student portal)
-**Researcher:** Kaden Donaldson
+**Project:** Weber State University "Register for Classes" (eWeber student portal)  
+**Researcher:** Kaden Donaldson  
 **Study type:** Controlled, within-subjects usability experiment (2 conditions, counterbalanced)
 
 | File in this folder | Purpose |
 |---|---|
-| `README.md` | This consolidated report (Lab04_Experiment_Plan) |
+| `README.md` | This consolidated report (also as `Lab04_Experiment_Plan.pdf`) |
 | `research_protocol.md` | Step by step session procedure, moderator script, checklists |
 | `variable_mapping.md` | IV / DV / control tables and hypothesis to metric to test mapping |
 | `counterbalancing_matrix.csv` | Participant to sequence assignment (Latin square) |
@@ -236,10 +236,10 @@ In HCI the stakes of a finding depend on the context. For registration, a keyboa
 **How the counterbalancing isolates bias, mathematically:**
 Let μ_A and μ_B be the true condition means, π the general practice effect of being in Period 2, and λ_A, λ_B the carryover from having used A or B first.
 
-- Sequence group AB (S1, S2): Period 1 = μ_A, Period 2 = μ_B + π + λ_A
- Difference (B − A) = (μ_B − μ_A) + π + λ_A
-- Sequence group BA (S3, S4): Period 1 = μ_B, Period 2 = μ_A + π + λ_B
- Difference (B − A) = (μ_B − μ_A) − π − λ_B
+- Sequence group AB (S1, S2): Period 1 = μ_A, Period 2 = μ_B + π + λ_A  
+  Difference (B − A) = (μ_B − μ_A) + π + λ_A
+- Sequence group BA (S3, S4): Period 1 = μ_B, Period 2 = μ_A + π + λ_B  
+  Difference (B − A) = (μ_B − μ_A) − π − λ_B
 
 Because the groups are equal in size (8 each), averaging them gives:
 
