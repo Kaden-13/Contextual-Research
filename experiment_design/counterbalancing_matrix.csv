@@ -1,0 +1,17 @@
+Participant_ID,Stratum,Fill_Order_In_Stratum,Sequence_ID,Interface_Order,Period1_Interface,Period1_Task_Set,Period2_Interface,Period2_Task_Set
+P01,Novice,3,S1,AB,A,X,B,Y
+P02,Novice,6,S2,AB,A,Y,B,X
+P03,Novice,1,S3,BA,B,X,A,Y
+P04,Novice,7,S4,BA,B,Y,A,X
+P05,Novice,2,S1,AB,A,X,B,Y
+P06,Novice,5,S2,AB,A,Y,B,X
+P07,Novice,8,S3,BA,B,X,A,Y
+P08,Novice,4,S4,BA,B,Y,A,X
+P09,Experienced,4,S1,AB,A,X,B,Y
+P10,Experienced,2,S2,AB,A,Y,B,X
+P11,Experienced,1,S3,BA,B,X,A,Y
+P12,Experienced,5,S4,BA,B,Y,A,X
+P13,Experienced,7,S1,AB,A,X,B,Y
+P14,Experienced,6,S2,AB,A,Y,B,X
+P15,Experienced,8,S3,BA,B,X,A,Y
+P16,Experienced,3,S4,BA,B,Y,A,X

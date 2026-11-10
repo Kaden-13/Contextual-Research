@@ -1,0 +1,24 @@
+Variable_Name,Description,Construct,Data_Type,Unit,Valid_Values_or_Range,Collection_Method,Role
+Participant_ID,Anonymous participant identifier,Identifier,Text,n/a,P01 to P16,Assigned at scheduling,Key
+Stratum,Registration experience group,Covariate / stratification,Categorical,n/a,Novice (0 to 2 terms); Experienced (3 or more terms),Screening survey Q2,Control
+Sequence_ID,Latin square sequence,Design,Categorical,n/a,S1; S2; S3; S4,counterbalancing_matrix.csv,Control
+Period,Order position of the condition in the session,Design,Integer,n/a,1; 2,Session schedule,Control
+Interface_Condition,Interface version used,Primary IV,Categorical,n/a,A = Baseline Control; B = Refactored Accessible Treatment,Prototype build loaded,IV
+Task_Set,Isomorphic course scenario,Counterbalanced nuisance factor,Categorical,n/a,X; Y,Prototype data file,Control
+Task_Type,Which task,Blocking factor,Categorical,n/a,T1 = keyboard-only add and submit; T2 = full-section error recovery,Task card,IV (blocking)
+Session_Date,Date of session,Admin,Date,YYYY-MM-DD,Study window,Moderator,Admin
+Task_Completion_Time_sec,Time from Start Task (Enter) to correct end state,Efficiency,Decimal,seconds,0.0 to 300.0 (300 = timeout),Prototype performance.now() log; screen recording backup,DV
+Task_Success_Binary,Correct end state reached within 300 s without assist,Effectiveness,Binary,n/a,0 = fail; 1 = success,Prototype end state check + moderator,DV
+Timeout_Flag,Task hit the 300 s cap,Effectiveness (support),Binary,n/a,0; 1,Prototype log,DV support
+Moderator_Assist,Participant asked to move on or received the scripted assist,Effectiveness (support),Binary,n/a,0; 1 (1 forces Task_Success_Binary = 0),Moderator log,DV support
+Error_Count_Total,Sum of coded error events E1 to E6,Effectiveness,Integer,count,0 or more,Video coding with codebook,DV
+E1_Wrong_Item,Wrong course or section activated,Effectiveness (component),Integer,count,0 or more,Video coding,DV component
+E2_Focus_Dead_End,Tabbed past target and had to reverse or restart (once per occurrence),Effectiveness (component),Integer,count,0 or more,Video coding + key log,DV component
+E3_Off_Path,Navigated to an unrelated page,Effectiveness (component),Integer,count,0 or more,Video coding,DV component
+E4_Failed_Submit,Submitted and received a correctable error,Effectiveness (component),Integer,count,0 or more,Prototype log,DV component
+E5_Misread_Feedback,Repeated the same failing action after an error message,Effectiveness (component),Integer,count,0 or more,Video coding,DV component
+E6_Mouse_Attempt,Reached for or asked for the mouse,Effectiveness (component),Integer,count,0 or more,Moderator observation,DV component
+Keystroke_Count,Total key presses during the task,Efficiency (secondary),Integer,count,0 or more,Prototype key log,DV (secondary)
+SEQ_Rating,Single Ease Question response,Satisfaction,Ordinal,Likert,1 (Very Difficult) to 7 (Very Easy),SEQ card after each task,DV
+SUS_Score,System Usability Scale score for the condition (entered on the T2 row only),Satisfaction,Decimal,points,0 to 100 in steps of 2.5,SUS form after each condition; ((sum odd items - 5) + (25 - sum even items)) x 2.5,DV
+Notes,Behavioral observations (no judgments about the participant),Qualitative,Text,n/a,Free text,Moderator,Qualitative
